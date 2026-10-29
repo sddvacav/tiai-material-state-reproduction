@@ -1,0 +1,177 @@
+{
+  "shared_content": {
+    "cohort": "Same 168 source-qualified sources with at least two candidates; actual budget min(k,n)",
+    "all_candidates_retained": true,
+    "sources_with_no_observed_qualified_candidate": 110,
+    "observed_source_opportunity_ceiling": 0.34523809523809523,
+    "actual_selection_positions_by_k": {
+      "1": 168,
+      "2": 336,
+      "3": 462,
+      "5": 630,
+      "10": 799
+    },
+    "sources_with_choice_remaining_by_k": {
+      "1": 168,
+      "2": 126,
+      "3": 95,
+      "5": 57,
+      "10": 11
+    },
+    "method_labels": {
+      "knn_density": "5-NN",
+      "ridge": "Ridge",
+      "tiai_xgb_surrogate": "Fixed surrogate"
+    },
+    "uncertainty": "Paired 95% source-bootstrap percentile interval; 5,000 draws; seed 20261021; fixed saved predictions; pointwise exploratory",
+    "visual_standard": "Read the existing shared VISUAL_STANDARD and publication tokens at render time; no local style override",
+    "no_probability_or_prospective_discovery_claim": true,
+    "observed_source_composition_diagnostic": {
+      "source_data": "paper01/analysis/predictive_utility/source_inventory.csv",
+      "filter": "primary_cohort=True; adjudicated sources retaining fewer than two eligible recorded candidates are excluded",
+      "source_key": "paper_family_id",
+      "fields": [
+        "n_candidates",
+        "observed_hit_count"
+      ],
+      "classification": {
+        "no_observed_hit": "observed_hit_count=0",
+        "all_candidates_hit": "observed_hit_count=n_candidates",
+        "mixed_hit_status": "0<observed_hit_count<n_candidates"
+      },
+      "counts": {
+        "primary": 168,
+        "no_observed_hit": 110,
+        "all_candidates_hit": 11,
+        "mixed_hit_status": 47,
+        "any_observed_hit": 58
+      },
+      "identity": "110+11+47=168; 11+47=58; 58/168=34.523810%",
+      "role": "Post hoc observed-label diagnostic; unavailable as a preselection eligibility filter; not an alternative primary denominator"
+    },
+    "representation_resolution_diagnostic": {
+      "source_data": "paper01/analysis/source_aware_ranking/source_representation_resolution.csv",
+      "join_to_primary_inventory": "paper_family_id; current primary_cohort=True; same 168 qualified source identities",
+      "fields": [
+        "distinct_raw_X_representations",
+        "distinct_outer_encoded_X_representations",
+        "all_raw_X_identical"
+      ],
+      "candidate_count": 913,
+      "source_local_X_blocks": 592,
+      "all_X_identical_sources": 50,
+      "mixed_hit_status_and_all_X_identical_sources": 19,
+      "mixed_hit_status_but_distinguishable_X_sources": 28,
+      "diagnostic_fraction": {
+        "numerator": 19,
+        "denominator": 47,
+        "percent": 40.42553191489361,
+        "display": "19/47 = 40.4%",
+        "meaning": "Post hoc fraction of observed mixed-label sources whose candidates all share the current X; not a primary-cohort success rate"
+      },
+      "role": "Current input representation cannot distinguish these recorded candidate states; this is not physical equivalence or a universal learning limit"
+    },
+    "candidate_retention_scope": "All 913 candidates in the qualified comparison; adjudicated sources below two eligible candidates withheld; frozen inputs and predictions unchanged"
+  },
+  "scientific_formula_semantics": {
+    "candidate_hit": "I(UTS>=1000 MPa and reported unspecified EL>=10%); stored numerical test-temperature scope 25 C",
+    "uniform_at_least_one": "For source s with n_s candidates and h_s observed hits, k_s=min(k,n_s): 1-C(n_s-h_s,k_s)/C(n_s,k_s), with C(a,b)=0 when b>a",
+    "primary_source_average": "Mean over all 168 source-qualified sources at every requested budget; fixed saved predictions",
+    "top1_uniform_decomposition": "(11 + sum_mixed(h_s/n_s))/168 = 0.1827303025315698",
+    "mixed_only_diagnostic": "The mixed-source mean sum(h_s/n_s)/47 = 0.41912108138944104 is post hoc; it cannot replace the all-168 comparator or its source bootstrap",
+    "q": "min(UTS/(1000 MPa), reported unspecified EL/(10%)); dimensionless and not capped at one",
+    "regret": "max(q over all recorded candidates in source)-max(q over selected candidates)",
+    "attainment_gain": "method minus exact uniform; multiply by 100 for percentage points",
+    "regret_gain": "exact uniform expected regret minus method regret; positive favors ranking",
+    "label_informed_block_oracle": "Observed-label X-block diagnostic source mean is 0.26883417508417506; not deployable or a learnable Bayes ceiling",
+    "uncertainty": "Original 5,000 whole-source resampling protocol applied only to affected qualified-source summaries; saved predictors and ranks fixed; no retraining uncertainty or multiplicity correction"
+  },
+  "four_layer_candidate_source_bindings": {
+    "opportunity": [
+      "paper01/analysis/predictive_utility/source_inventory.csv",
+      "paper01/analysis/predictive_utility/budget_utility_summary.csv"
+    ],
+    "resolution": [
+      "paper01/analysis/source_aware_ranking/source_representation_resolution.csv",
+      "paper01/analysis/source_aware_ranking/representation_blocks_label_informed.csv",
+      "paper01/analysis/source_aware_ranking/representation_oracle_by_source.csv"
+    ],
+    "equal_budget": [
+      "paper01/analysis/predictive_utility/budget_utility_summary.csv",
+      "paper01/analysis/source_aware_ranking/top1_utility_summary.csv",
+      "paper01/analysis/source_aware_ranking/exact_tie_utility_summary.csv"
+    ],
+    "adaptation": [
+      "paper01/analysis/sequential_design/paired_policy_gains.csv",
+      "paper01/analysis/sequential_design/budget_outcome_summary.csv",
+      "paper01/analysis/sequential_design/all_changed_second_choices.csv"
+    ],
+    "required_matched_comparator": "common_ridge_seed_uniform_completion; each label reveal, including the common first selection, consumes budget",
+    "budget2_attainment_gain_vs_matched_uniform_percentage_points": 0.12310577333869235,
+    "budget2_gain_ci95_percentage_points": [
+      -2.526399747236315,
+      2.7497240383983392
+    ]
+  },
+  "filter": {
+    "cohort": "primary_source_qualified_min_k_n",
+    "stratum": "all",
+    "methods": [
+      "knn_density",
+      "ridge",
+      "tiai_xgb_surrogate"
+    ],
+    "requested_k": [
+      1,
+      2,
+      3,
+      5,
+      10
+    ]
+  },
+  "panels": [
+    {
+      "id": "A",
+      "question": "Does ranking increase the chance of selecting at least one jointly qualified recorded state?",
+      "metric": "at_least_one_attainment",
+      "x": "requested_k",
+      "x_label": "Requested candidate budget k",
+      "y": "paired_gain",
+      "y_scale_factor": 100,
+      "y_label": "Attainment gain over uniform (percentage points)",
+      "ci_columns": [
+        "paired_gain_ci95_low",
+        "paired_gain_ci95_high"
+      ],
+      "marks": "All three methods at every budget with pointwise paired intervals; zero reference line; no stars or winner annotation",
+      "baseline_annotation": "Exact uniform >=1-hit expectations: 18.2730%, 26.5797%, 29.8510%, 32.6894%, 34.5223%; recorded opportunity 58/168",
+      "required_labels": [
+        "n = 168 at every budget",
+        "Actual positions: 168, 336, 462, 630, 799",
+        "110 sources contain no observed hit"
+      ]
+    },
+    {
+      "id": "B",
+      "question": "Does ranking reduce the distance from the best recorded strength-elongation compromise?",
+      "metric": "observed_best_regret",
+      "x": "requested_k",
+      "x_label": "Requested candidate budget k",
+      "y": "paired_gain",
+      "y_scale_factor": 1,
+      "y_label": "Observed-best regret reduction over uniform (q units)",
+      "ci_columns": [
+        "paired_gain_ci95_low",
+        "paired_gain_ci95_high"
+      ],
+      "marks": "All three methods at every budget with pointwise paired intervals; zero reference line; same method mapping as A",
+      "utility_definition": "q = min(UTS/1000 MPa, reported EL/10%); regret = best q among all recorded source candidates minus best selected q; no cap at q=1",
+      "gain_definition": "Exact uniform expected regret minus method regret; positive values favor saved ranking",
+      "required_labels": [
+        "Recorded-candidate optimum",
+        "Retrospective exploratory",
+        "Only 12 sources have n>10"
+      ]
+    }
+  ]
+}

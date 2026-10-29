@@ -1,0 +1,481 @@
+panel,element,series,x,value,unit,paper_family_id,doi,observed_hit_count,all_raw_X_identical,distinct_raw_X_representations,source_table,count_text,role,ci95_low,ci95_high,source_key,y,count,t
+a,source,all_candidates_hit,2,2.0,candidates,PF-27c91047ba3535bf,10.1016/j.msea.2019.138749,2.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,2,2.0,candidates,PF-391f5c7e51dbe97c,10.1016/j.matlet.2007.12.025,2.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,2,2.0,candidates,PF-c73a8f208bddc9fd,10.1016/j.jmrt.2023.05.137,2.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,2,2.0,candidates,PFI-5e97bbb1f4816c48,10.1016/j.jmrt.2024.07.119,2.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,2,2.0,candidates,PF-451d386d6c083d1f,10.1016/j.addma.2021.102444,2.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,2,2.0,candidates,PF-813db630d9d950b0,10.1016/j.intermet.2025.108688,2.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,2,2.0,candidates,PF-fcb6107eae52ac15,10.1016/j.ijfatigue.2024.108426,2.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,2,2.0,candidates,PF_DOI_3756404dac4c591e24cb,10.1016/s1044-5803(01)00136-x,2.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,2,2.0,candidates,PF-a336a60b2a7c2916,10.1016/j.jallcom.2021.159155,1.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,2,2.0,candidates,PF-a7bcb06f8df841fe,10.1016/j.msea.2018.01.113,1.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,2,2.0,candidates,PF-b3efc517e98ad04e,10.1016/j.jallcom.2025.183482,1.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,2,2.0,candidates,PF-289c28a6a9824918,10.1016/j.mattod.2022.10.026,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,2,2.0,candidates,PF-65943286242aceb8,10.1016/j.jmrt.2022.08.068,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,2,2.0,candidates,PFI-f91e9e1664cd7581,10.1016/j.jallcom.2021.159051,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,2,2.0,candidates,PF_DOI_4da0bd9ba7fd1da412a7,10.1080/21663831.2024.2432416,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,2,2.0,candidates,PF_DOI_aa348fca4d70933b83e3,10.1080/00084433.2026.2641913,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,2,2.0,candidates,PF_DOI_d53be46df15e3d55cdb7,10.4028/www.scientific.net/msf.849.340,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-2b349925d6c0d45a,10.1016/j.powtec.2014.07.048,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-55e5f5d61b1d1011,10.1016/j.matdes.2016.04.103,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-5f960bf3ef4e96b3,10.1016/j.intermet.2021.107316,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-70a0ac9ac25c129f,10.1016/j.actamat.2025.121260,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-74f5a1c447389a46,10.1016/j.jallcom.2025.183349,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-7ab758a99c5c9238,10.1016/j.scriptamat.2019.06.009,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-7f1a74f01711804d,10.1016/j.carbon.2024.119884,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-d27798c1c9f01b1d,10.1016/j.matchar.2018.12.025,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-dd1b144d17cf7490,10.1016/j.compositesa.2020.105834,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PFI-034a631a8f97d81e,10.1016/j.compositesb.2025.112392,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PFI-4f02f5188dc82228,10.1016/j.msea.2022.143645,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PFI-761ffb8dccc3394c,10.1016/j.msea.2015.01.033,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF_DOI_19db12c210b684e8174f,10.1016/j.jmrt.2023.05.129,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF_DOI_c503a7a2ca9b93265472,10.1179/174329009x457063,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-1eb758c8dd5fb189,10.1016/j.msea.2025.149533,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-2a61d541384a3a10,10.1016/j.msea.2022.144466,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-32086acdd69f126f,10.1016/j.msea.2025.149286,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-9f4fa27cffcde3b0,10.1016/j.mtcomm.2025.112195,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-a26cb73072b8fcee,10.1016/j.jallcom.2022.168277,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF-ad8da8d1d2b4ca0b,10.1016/j.addma.2024.104194,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PFI-3974a0f813fd450f,10.1016/j.msea.2016.04.096,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PFI-cac06928879ab110,10.1016/j.jmst.2021.12.020,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PFI-defa6d728e6f78db,10.1007/s11661-020-06067-7,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF_DOI_191d1726a535f9e51faa,10.1007/s11661-020-05677-5,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,2,2.0,candidates,PF_DOI_fd64244def319b5adb87,10.1016/j.jallcom.2023.170212,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,3,3.0,candidates,PF-3706f08487f270e8,10.1016/j.jallcom.2026.187262,3.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,3,3.0,candidates,PF-8633e365c3f11dd6,10.1016/j.matchar.2020.110527,1.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,3,3.0,candidates,PF-aee8da5b33fa9e65,10.1016/j.apmt.2025.102956,2.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,3,3.0,candidates,PF-cc4d361ae7bbe093,10.1016/j.msea.2025.148266,2.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,3,3.0,candidates,PF-3cafecdd0e5b7eb8,10.1016/j.compositesa.2025.109454,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,3,3.0,candidates,PF-4dc37adf84e5b9f1,10.1016/j.msea.2018.06.034,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,3,3.0,candidates,PF-be8de55a82879eec,10.1016/j.matlet.2009.11.019,2.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,3,3.0,candidates,PFI-76c9d37d61079f56,10.1007/s10853-025-11664-1,2.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-2c0f285151e6cfa2,10.1016/j.carbon.2022.06.038,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-8dc3fb5562e5c7c6,10.1016/j.compositesb.2023.111039,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-KEY-P0538,10.1007/s10853-025-10851-4,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-a541c0df1f38917d,10.1016/j.mtcomm.2024.108147,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-b53c2b0bdf5c3bb6,10.1016/j.ceramint.2024.02.236,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-c791259e0fddad91,10.1016/j.msea.2024.146617,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-f381d34287e5d8ca,10.1016/j.addma.2020.101466,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-f7f4b1a82dc2fada,10.1016/j.msea.2016.08.011,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PFI-04cccb4ac07ce3f2,10.1016/s1003-6326(14)63204-0,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PFI-b9081e94a9113689,10.1016/s1003-6326(22)65863-1,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PFI-c8d284f239e4e191,10.1016/j.actamat.2023.118995,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PFI-f73ea57ffa517ca0,10.1016/j.jmrt.2025.03.113,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF_DOI_1392a0fc842eb3f25362,10.1557/jmr.2016.143,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF_DOI_c43fd0eb3c7db9ba33fe,10.12913/22998624/202851,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF_DOI_eab2d9a9c90932ada6f3,10.1016/j.msea.2014.07.020,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-0c7fca67a2b8c8c7,10.1016/j.matdes.2026.115534,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-0d6f9b9a37f35ef9,10.1016/j.jmrt.2023.05.058,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-16bfaf3e6024ffda,10.1016/j.coco.2023.101611,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-5af7b0b73129936f,10.1016/j.msea.2016.07.112,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF-689e9800b76bf4a9,10.1016/j.msea.2017.08.097,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF_DOI_22a6fd7c555bde552b21,10.1088/1742-6596/2956/1/012035,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF_DOI_28489a55ce5f49c8a2c3,10.1007/s40962-026-02026-x,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,3,3.0,candidates,PF_DOI_a12e57f4ed853b4a1d3d,10.4028/www.scientific.net/msf.561-565.751,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,4,4.0,candidates,PF-21d7d85624c501e5,10.1016/j.msea.2021.140988,4.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,4,4.0,candidates,PF-5d29ef28d9f5e88b,10.1016/j.jallcom.2023.172404,1.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,4,4.0,candidates,PF-6a9b32a8429c84d7,10.1016/j.ijplas.2025.104283,2.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,4,4.0,candidates,PF-75c93e337c825324,10.1016/j.msea.2025.148110,1.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,4,4.0,candidates,PF_DOI_dfcdba8a953a945d7e09,10.3788/cjl220961,3.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-1b47f5721021eb4a,10.1016/j.jallcom.2007.09.054,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-1d3950664e6576e3,10.1016/j.mtcomm.2024.108457,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-2aaca0e2e5567f01,10.1016/j.addma.2021.101883,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-625c8173338ff410,10.1016/j.compositesb.2024.112072,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-665dd23e385b3a17,10.1016/j.matdes.2025.114399,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-7dad3a9029e73d9c,10.1016/j.scriptamat.2021.113916,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-c915cc0201383045,10.1016/j.msea.2022.142954,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-dfa1a2adbed38137,10.1016/j.jallcom.2009.05.112,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PFI-7a15b14b32c3c0f6,10.1016/j.jallcom.2023.171867,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PFI-b14283f7397bf743,10.1016/j.jallcom.2022.165399,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PFI-b2a2a4a39a3b9554,10.1016/j.msea.2017.09.034,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PFI-ea2f968bdf5ccf57,10.1016/j.intermet.2011.10.003,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF_DOI_9d09d3779dd43ce9628b,10.1016/j.scriptamat.2009.12.008,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-2bf27f7d8d8efb47,10.1016/j.compositesb.2023.110817,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-6ed4d19c5225af82,10.1016/j.jallcom.2023.171523,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF-fd9bdb4e6940f2c8,10.1016/j.jallcom.2024.178257,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,4,4.0,candidates,PF_DOI_c65509937ced5e238077,10.1088/1757-899x/194/1/012030,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,5,5.0,candidates,PF-46e47b111e4e467b,10.1016/j.matchar.2023.113043,2.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,5,5.0,candidates,PF-12cc66214fd5ed3b,10.1016/j.jmrt.2022.08.012,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,5,5.0,candidates,PFI-3113e3336d701657,10.1557/jmr.2008.0378,2.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PF-68c98883de528967,10.1016/j.mtcomm.2019.100576,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PF-b1f2fb0459671727,10.1016/j.jallcom.2025.184620,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PF-cb6778e15b2a17c3,10.1016/j.jmrt.2026.01.026,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PF-df887a6fe16b940b,10.1016/j.jallcom.2025.178562,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PF-ed9fb62a28f626cf,10.1016/j.msea.2023.145996,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PFI-0214abe66c7c3cb9,10.1016/j.jallcom.2019.152953,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PFI-3de8578b4b796d12,10.1016/j.jallcom.2010.12.086,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PFI-48722176e1a74266,10.1016/j.compscitech.2007.12.014,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PFI-84db5f15c7844415,10.1016/j.msea.2020.140426,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PF_DOI_eedc036bf67fb4af0373,10.1016/j.msea.2023.144685,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PF-03833697b50607fc,10.1007/s11665-025-11173-x,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PF-ed8a5d37e104dc23,10.1016/j.jmrt.2024.02.002,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,5,5.0,candidates,PF_DOI_c13df75c2b458d4c8359,10.1016/j.jmst.2021.08.033,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,all_candidates_hit,6–7,6.0,candidates,PFI-18b0dd9cd1db5700,10.1016/j.compositesb.2012.01.075,6.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,6–7,6.0,candidates,PF-4d28168125edd3a2,10.1016/j.jallcom.2023.169022,1.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,6–7,6.0,candidates,PF-8b99dc3f3f8cf3b2,10.1016/j.compositesb.2023.111068,3.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,6–7,6.0,candidates,PFI-b52e255c45041361,10.1016/j.msea.2023.145234,3.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,6–7,6.0,candidates,PFI-d6dc2930ca7d336e,10.1016/j.msea.2010.03.074,4.0,False,6.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,6–7,7.0,candidates,PF_DOI_5dfd9a77ba9c1ec31d76,10.1080/21663831.2016.1245681,2.0,False,6.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,6–7,6.0,candidates,PF_DOI_8fd3ce81963fb39396f5,10.1016/j.jmrt.2023.01.126,2.0,False,6.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,6–7,6.0,candidates,PF-b71d60d2c5cd8f24,10.1016/j.ijfatigue.2024.108365,3.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,6–7,6.0,candidates,PFI-4f70ca9d4b806f8c,10.1038/s41598-019-40722-3,4.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,6.0,candidates,PF-0d445e39e6960af7,10.1016/j.jallcom.2025.180981,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,6.0,candidates,PF-25c22ddb9d16caa2,10.1016/j.msea.2021.141488,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,6.0,candidates,PF-2cd93cabf03e67ca,10.1016/j.jmst.2021.08.066,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,7.0,candidates,PF-6286c346dfc7b92e,10.1016/j.msea.2022.144235,0.0,False,6.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,6.0,candidates,PF-9ccb36afd48a9741,10.1016/j.jallcom.2025.183835,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,6.0,candidates,PF-9db9a8f8fcf96611,10.1016/j.msea.2023.145284,0.0,False,6.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,7.0,candidates,PF-e652a0896efed811,10.1016/j.msea.2024.146474,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,6.0,candidates,PF-e6ccaf8474357ba2,10.1016/j.compositesa.2023.107815,0.0,False,6.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,6.0,candidates,PFI-0f787ce0cff2057e,10.1002/adem.202400534,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,6.0,candidates,PFI-1aa3c0eeaa74e127,10.1016/j.apmate.2025.100360,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,7.0,candidates,PFI-bfae7bc4fb1da722,10.1007/s11661-020-05630-6,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,7.0,candidates,PF_DOI_81a71c3af566889df2ef,10.2497/jjspm.56.259,0.0,False,6.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,6–7,7.0,candidates,PF-0ae9be09f196eef7,10.1016/j.addma.2024.103970,0.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,9.0,candidates,PF-055ed81db65a7bad,10.1016/j.msea.2025.148199,6.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,8.0,candidates,PF-10e4731902377738,10.1016/j.matchar.2024.114668,2.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,9.0,candidates,PF-28a7697a1471f9e0,10.1016/j.jallcom.2022.167022,2.0,False,9.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,8.0,candidates,PF-408d8a28ae497f25,10.1016/j.msea.2021.140783,2.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,8.0,candidates,PF-6b40920ada5c5a2a,10.1016/j.jallcom.2007.11.096,4.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,10.0,candidates,PF-8a37cfab2ffd43cc,10.1016/j.jallcom.2022.165930,4.0,False,10.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,10.0,candidates,PF-a002484bc0f6f928,10.1016/j.heliyon.2024.e40200,1.0,False,9.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,10.0,candidates,PFI-a9b2f0691f07c44a,10.1016/j.matchar.2024.114592,2.0,False,10.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,8.0,candidates,PFI-ed02d83bde1d2f64,10.1038/s41586-023-05952-6,1.0,False,8.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,8.0,candidates,PF-a1eef26d486741f7cc15,10.13251/j.issn.0254-6051.2018.11.030,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,8.0,candidates,PFI-33f4df8d5973cdce,10.1016/j.jallcom.2010.09.005,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,8–10,9.0,candidates,PF_DOI_b4d4107e92517d31df11,10.1007/s11837-023-06304-5,1.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,9.0,candidates,PF-766f2ec905d05039,10.1016/j.compositesb.2023.110822,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,10.0,candidates,PF-7a9a0302cdbd6be8,10.1016/j.matdes.2016.12.029,0.0,False,9.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,8.0,candidates,PF-b0381ace97e71dcb,10.1016/j.matdes.2011.02.023,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,9.0,candidates,PF-ba5c128b461a316a,10.1016/j.jmatprotec.2017.10.005,0.0,False,9.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,8.0,candidates,PF-bcf60ceaa99923f5,10.1016/j.msea.2022.144264,0.0,False,3.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,8.0,candidates,PF-c9a3c4cb169bb808,10.1016/j.matlet.2022.133407,0.0,False,8.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,8.0,candidates,PF-da2f385c3d4f5241,10.1016/j.matdes.2015.03.018,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,8.0,candidates,PFI-69513cb7474cf151,10.1016/j.actamat.2012.01.032,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,8.0,candidates,PFI-6b61683304851387,10.1016/j.scriptamat.2023.115625,0.0,False,2.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,8.0,candidates,PFI-e0d219ea02364756,10.1016/j.jallcom.2023.172360,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,9.0,candidates,PF_DOI_488642f95b1d142c7718,10.1016/j.matchar.2019.02.026,0.0,False,9.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,8–10,8.0,candidates,PF_DOI_94dadee331e9ed63c0a7,10.1016/j.jallcom.2023.168729,0.0,False,8.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,≥11,93.0,candidates,PF_DOI_62b942395fc707cb9caa,10.1089/3dp.2023.0186,42.0,False,40.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,≥11,14.0,candidates,PF_DOI_8a6c456705ad0a99129d,10.11901/1005.3093.2019.110,10.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,≥11,14.0,candidates,PF_DOI_fa475d72fe0ebf4b1634,10.1016/j.jallcom.2017.03.171,4.0,False,14.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,mixed_hit_status,≥11,11.0,candidates,PF_DOI_f80f0698fcf306ac41ba,10.1080/17452759.2024.2382168,7.0,True,1.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,≥11,15.0,candidates,PF-6e9cbcc4e4f1d7c6,10.1016/j.msea.2023.145857,0.0,False,15.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,≥11,12.0,candidates,PF-83cfb55cfe74b6c2,10.1016/j.addma.2020.101323,0.0,False,4.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,≥11,12.0,candidates,PF-955b423fe6a37068,10.1016/j.jallcom.2023.172643,0.0,False,12.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,≥11,13.0,candidates,PF-a55cc8c81be75c51,10.1016/j.jmrt.2025.11.223,0.0,False,13.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,≥11,16.0,candidates,PF-c12c049d39a92599,10.1016/j.msea.2024.146147,0.0,False,5.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,≥11,12.0,candidates,PFI-776df4e6a9b18366,10.1007/s10853-023-08540-1,0.0,False,7.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+a,source,no_observed_hit,≥11,12.0,candidates,PFI-b3ac2af066f70fb5,10.1016/j.matchar.2025.115212,0.0,False,12.0,predictive_utility/source_inventory.csv; source_aware_ranking/source_representation_resolution.csv,,,,,,,,
+b,top1_ladder,Opportunity,1,34.523809523809526,% of 168 sources,,,,,,predictive_utility/source_inventory.csv,58/168,recorded opportunity; observed labels,,,,,,
+b,top1_ladder,X-block ref.,1,26.883417508417505,% of 168 sources,,,,,,source_aware_ranking/representation_oracle_by_source.csv,45.2/168,"label-informed X block, uniform within block; observed-label diagnostic",,,,,,
+b,top1_ladder,5-NN,1,20.238095238095237,% of 168 sources,,,,,,predictive_utility/budget_utility_summary.csv,34/168,"saved prediction, stable-ID ranking",,,,,,
+b,top1_ladder,Pointwise ridge,1,19.642857142857142,% of 168 sources,,,,,,source_aware_ranking/top1_utility_summary.csv,33/168,nested source-equal pointwise ridge,,,,,,
+b,top1_ladder,Centered ridge,1,19.642857142857142,% of 168 sources,,,,,,source_aware_ranking/top1_utility_summary.csv,33/168,nested source-centered ridge,,,,,,
+b,top1_ladder,Uniform,1,18.27303025315698,% of 168 sources,,,,,,predictive_utility/budget_utility_summary.csv,30.7/168,exact uniform within source,,,,,,
+b,top1_ladder,Ridge,1,19.047619047619047,% of 168 sources,,,,,,predictive_utility/budget_utility_summary.csv,32/168,"saved prediction, stable-ID ranking",,,,,,
+b,top1_ladder,Fixed surrogate,1,18.45238095238095,% of 168 sources,,,,,,predictive_utility/budget_utility_summary.csv,31/168,"saved prediction, stable-ID ranking",,,,,,
+c,limit,opportunity_limit,1,16.250779270652544,pp,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: 58/168 minus exact uniform,,,,,,
+c,limit,opportunity_limit,2,7.944129978416697,pp,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: 58/168 minus exact uniform,,,,,,
+c,limit,opportunity_limit,3,4.672846987325552,pp,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: 58/168 minus exact uniform,,,,,,
+c,limit,opportunity_limit,5,1.8343973831020544,pp,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: 58/168 minus exact uniform,,,,,,
+c,limit,opportunity_limit,10,0.0015360204227099494,pp,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: 58/168 minus exact uniform,,,,,,
+c,paired_gain,knn_density,1,1.9650649849382584,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-1.6143834590695176,5.833448821244038,primary_source_qualified_min_k_n|knn_density|1|at_least_one_attainment,,,
+c,paired_gain,knn_density,2,0.20603474032145908,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-3.1518173460137757,3.3805197473769666,primary_source_qualified_min_k_n|knn_density|2|at_least_one_attainment,,,
+c,paired_gain,knn_density,3,0.5061803206588833,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-2.0765603445912424,3.024031517081498,primary_source_qualified_min_k_n|knn_density|3|at_least_one_attainment,,,
+c,paired_gain,knn_density,5,0.6439211926258626,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-1.0985259366955764,2.194097083994839,primary_source_qualified_min_k_n|knn_density|5|at_least_one_attainment,,,
+c,paired_gain,knn_density,10,0.0015360204227099494,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,0.0,0.004013417816339793,primary_source_qualified_min_k_n|knn_density|10|at_least_one_attainment,,,
+c,paired_gain,ridge,1,0.7745887944620666,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-2.8799134400012827,4.519321409730394,primary_source_qualified_min_k_n|ridge|1|at_least_one_attainment,,,
+c,paired_gain,ridge,2,-1.5796795453928258,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-4.858137512296247,1.7515054906672274,primary_source_qualified_min_k_n|ridge|2|at_least_one_attainment,,,
+c,paired_gain,ridge,3,-0.6842958698173085,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-3.3925344254217427,1.8403060233417385,primary_source_qualified_min_k_n|ridge|3|at_least_one_attainment,,,
+c,paired_gain,ridge,5,0.048683097387769436,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-2.042687392186841,1.8630604679711769,primary_source_qualified_min_k_n|ridge|5|at_least_one_attainment,,,
+c,paired_gain,ridge,10,-0.5937020748153887,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-1.7828901548015141,0.0017839303553590646,primary_source_qualified_min_k_n|ridge|10|at_least_one_attainment,,,
+c,paired_gain,tiai_xgb_surrogate,1,0.17935069922397073,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-3.4694328488971338,4.047919447797034,primary_source_qualified_min_k_n|tiai_xgb_surrogate|1|at_least_one_attainment,,,
+c,paired_gain,tiai_xgb_surrogate,2,-0.9844414501547327,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-4.410357877839967,2.4085219852194104,primary_source_qualified_min_k_n|tiai_xgb_surrogate|2|at_least_one_attainment,,,
+c,paired_gain,tiai_xgb_surrogate,3,1.101418415896982,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-1.41390963402929,3.466105942320949,primary_source_qualified_min_k_n|tiai_xgb_surrogate|3|at_least_one_attainment,,,
+c,paired_gain,tiai_xgb_surrogate,5,0.6439211926258626,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,-1.0985259366955764,2.194097083994839,primary_source_qualified_min_k_n|tiai_xgb_surrogate|5|at_least_one_attainment,,,
+c,paired_gain,tiai_xgb_surrogate,10,0.0015360204227099494,pp,,,,,,predictive_utility/budget_utility_summary.csv,,,0.0,0.004013417816339793,primary_source_qualified_min_k_n|tiai_xgb_surrogate|10|at_least_one_attainment,,,
+c,paired_gain,source_equal_pointwise_ridge,1,1.3698268897001624,pp,,,,,,source_aware_ranking/top1_utility_summary.csv,,,-2.3586161289214274,5.234167419615286,source_equal_pointwise_ridge|attainment_gain,,,
+c,paired_gain,source_centered_ridge,1,1.369826889700162,pp,,,,,,source_aware_ranking/top1_utility_summary.csv,,,-2.1801693143859033,4.994205776355833,source_centered_ridge|attainment_gain,,,
+d,limit,recorded_optimum,1,0.1815489898461327,q,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: exact uniform expected regret,,,,,,
+d,limit,recorded_optimum,2,0.07908044026697829,q,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: exact uniform expected regret,,,,,,
+d,limit,recorded_optimum,3,0.037720332201842774,q,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: exact uniform expected regret,,,,,,
+d,limit,recorded_optimum,5,0.01128765107513397,q,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: exact uniform expected regret,,,,,,
+d,limit,recorded_optimum,10,0.00029128008827610517,q,,,,,,predictive_utility/budget_utility_summary.csv,,observed-label diagnostic: exact uniform expected regret,,,,,,
+d,paired_gain,knn_density,1,0.020000061274704134,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.00703681606909956,0.04762056850015886,primary_source_qualified_min_k_n|knn_density|1|observed_best_regret,,,
+d,paired_gain,knn_density,2,-0.013931524018736,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.03561283806794735,0.006245386485927232,primary_source_qualified_min_k_n|knn_density|2|observed_best_regret,,,
+d,paired_gain,knn_density,3,0.0004318202970808663,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.012569895470013031,0.013211161463148997,primary_source_qualified_min_k_n|knn_density|3|observed_best_regret,,,
+d,paired_gain,knn_density,5,-0.0028558608296279323,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.012625402973956845,0.005423360165160509,primary_source_qualified_min_k_n|knn_density|5|observed_best_regret,,,
+d,paired_gain,knn_density,10,0.00017818485018086713,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.0001456390754582704,0.0005100487183462431,primary_source_qualified_min_k_n|knn_density|10|observed_best_regret,,,
+d,paired_gain,ridge,1,0.03271428746518035,q,,,,,,predictive_utility/budget_utility_summary.csv,,,0.005654929061885505,0.060834882317005096,primary_source_qualified_min_k_n|ridge|1|observed_best_regret,,,
+d,paired_gain,ridge,2,-0.0035363454473074235,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.02288715125632707,0.014998793107768537,primary_source_qualified_min_k_n|ridge|2|observed_best_regret,,,
+d,paired_gain,ridge,3,-0.0008128225600619876,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.014229232643562847,0.011567977062314643,primary_source_qualified_min_k_n|ridge|3|observed_best_regret,,,
+d,paired_gain,ridge,5,-0.0027106822581993654,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.011963580086927803,0.005224205086786558,primary_source_qualified_min_k_n|ridge|5|observed_best_regret,,,
+d,paired_gain,ridge,10,-0.0006313389593429426,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.00224823394518786,0.00026206593703915175,primary_source_qualified_min_k_n|ridge|10|observed_best_regret,,,
+d,paired_gain,tiai_xgb_surrogate,1,0.034489823179466056,q,,,,,,predictive_utility/budget_utility_summary.csv,,,0.003380306037670989,0.06591780608383836,primary_source_qualified_min_k_n|tiai_xgb_surrogate|1|observed_best_regret,,,
+d,paired_gain,tiai_xgb_surrogate,2,-0.00017991687587885774,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.02355607923136984,0.023006693433457338,primary_source_qualified_min_k_n|tiai_xgb_surrogate|2|observed_best_regret,,,
+d,paired_gain,tiai_xgb_surrogate,3,0.005241284582795158,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.007939243630418143,0.017938756922227492,primary_source_qualified_min_k_n|tiai_xgb_surrogate|3|observed_best_regret,,,
+d,paired_gain,tiai_xgb_surrogate,5,0.0008547939322768299,q,,,,,,predictive_utility/budget_utility_summary.csv,,,-0.006997548338341114,0.008195661796805956,primary_source_qualified_min_k_n|tiai_xgb_surrogate|5|observed_best_regret,,,
+d,paired_gain,tiai_xgb_surrogate,10,0.00029128008827610517,q,,,,,,predictive_utility/budget_utility_summary.csv,,,6.71199254614442e-05,0.0006016280926708413,primary_source_qualified_min_k_n|tiai_xgb_surrogate|10|observed_best_regret,,,
+d,paired_gain,source_equal_pointwise_ridge,1,0.044206668417561275,q,,,,,,source_aware_ranking/top1_utility_summary.csv,,,0.015242958288528598,0.07364066530608941,source_equal_pointwise_ridge|regret_gain,,,
+d,paired_gain,source_centered_ridge,1,0.03308101365565651,q,,,,,,source_aware_ranking/top1_utility_summary.csv,,,0.005078737636784512,0.061271572332057815,source_centered_ridge|regret_gain,,,
+e,mixed_sources,declared_target,1000.0,27.976190476190478,% of 168 sources,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.0,47.0,
+e,mixed_sources,plane_maximum,880.0,53.571428571428584,% of 168 sources,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.6000000000000005,90.0,
+f,target_path,ranking_room,400.0,10.91284142551423,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.0,,0.4
+f,target_path,unresolved_states,400.0,5.011574074074076,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.0,,0.4
+f,target_path,attainable_gain,400.0,15.924415499588306,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.0,,0.4
+f,target_path,ranking_room,410.0,11.07436971204252,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.1000000000000005,,0.41
+f,target_path,unresolved_states,410.0,5.011574074074076,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.1000000000000005,,0.41
+f,target_path,attainable_gain,410.0,16.085943786116594,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.1000000000000005,,0.41
+f,target_path,ranking_room,420.0,11.243020505693313,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.2,,0.42
+f,target_path,unresolved_states,420.0,5.011574074074076,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.2,,0.42
+f,target_path,attainable_gain,420.0,16.25459457976739,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.2,,0.42
+f,target_path,ranking_room,430.0,11.243020505693313,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.3,,0.43
+f,target_path,unresolved_states,430.0,5.709325396825394,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.3,,0.43
+f,target_path,attainable_gain,430.0,16.952345902518708,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.3,,0.43
+f,target_path,ranking_room,440.0,12.425938117182344,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.4,,0.44
+f,target_path,unresolved_states,440.0,5.709325396825394,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.4,,0.44
+f,target_path,attainable_gain,440.0,18.13526351400774,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.4,,0.44
+f,target_path,ranking_room,450.0,13.060858752102988,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.5,,0.45
+f,target_path,unresolved_states,450.0,5.8581349206349165,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.5,,0.45
+f,target_path,attainable_gain,450.0,18.918993672737905,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.5,,0.45
+f,target_path,ranking_room,460.0,13.782466839782504,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.6000000000000005,,0.46
+f,target_path,unresolved_states,460.0,5.1140873015873005,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.6000000000000005,,0.46
+f,target_path,attainable_gain,460.0,18.896554141369805,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.6000000000000005,,0.46
+f,target_path,ranking_room,470.0,13.782466839782504,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.7,,0.47
+f,target_path,unresolved_states,470.0,4.667658730158742,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.7,,0.47
+f,target_path,attainable_gain,470.0,18.450125569941246,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.7,,0.47
+f,target_path,ranking_room,480.0,13.71302239533806,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.800000000000001,,0.48
+f,target_path,unresolved_states,480.0,4.66765873015873,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.800000000000001,,0.48
+f,target_path,attainable_gain,480.0,18.38068112549679,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.800000000000001,,0.48
+f,target_path,ranking_room,490.0,13.812228744544397,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.9,,0.49
+f,target_path,unresolved_states,490.0,4.78670634920636,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.9,,0.49
+f,target_path,attainable_gain,490.0,18.598935093750757,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,4.9,,0.49
+f,target_path,ranking_room,500.0,14.043992148830842,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.0,,0.5
+f,target_path,unresolved_states,500.0,5.124007936507946,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.0,,0.5
+f,target_path,attainable_gain,500.0,19.16800008533879,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.0,,0.5
+f,target_path,ranking_room,510.0,14.430896910735624,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.1000000000000005,,0.51
+f,target_path,unresolved_states,510.0,4.649234693877558,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.1000000000000005,,0.51
+f,target_path,attainable_gain,510.0,19.080131604613182,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.1000000000000005,,0.51
+f,target_path,ranking_room,520.0,14.430896910735624,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.2,,0.52
+f,target_path,unresolved_states,520.0,4.649234693877558,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.2,,0.52
+f,target_path,attainable_gain,520.0,19.080131604613182,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.2,,0.52
+f,target_path,ranking_room,530.0,15.498782398263955,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.300000000000001,,0.53
+f,target_path,unresolved_states,530.0,4.599631519274383,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.300000000000001,,0.53
+f,target_path,attainable_gain,530.0,20.098413917538338,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.300000000000001,,0.53
+f,target_path,ranking_room,540.0,15.121798271279829,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.4,,0.54
+f,target_path,unresolved_states,540.0,4.599631519274383,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.4,,0.54
+f,target_path,attainable_gain,540.0,19.72142979055421,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.4,,0.54
+f,target_path,ranking_room,550.0,15.196203033184597,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.5,,0.55
+f,target_path,unresolved_states,550.0,4.89725056689343,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.5,,0.55
+f,target_path,attainable_gain,550.0,20.09345360007803,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.5,,0.55
+f,target_path,ranking_room,560.0,15.421070758052323,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.6000000000000005,,0.56
+f,target_path,unresolved_states,560.0,5.165107709750572,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.6000000000000005,,0.56
+f,target_path,attainable_gain,560.0,20.586178467802895,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.6000000000000005,,0.56
+f,target_path,ranking_room,570.0,15.698848535830102,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.7,,0.57
+f,target_path,unresolved_states,570.0,5.462726757369618,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.7,,0.57
+f,target_path,attainable_gain,570.0,21.161575293199718,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.7,,0.57
+f,target_path,ranking_room,580.0,16.62642790090948,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.800000000000001,,0.58
+f,target_path,unresolved_states,580.0,5.7967214663643185,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.800000000000001,,0.58
+f,target_path,attainable_gain,580.0,22.423149367273798,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.800000000000001,,0.58
+f,target_path,ranking_room,590.0,16.532890485943476,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.9,,0.59
+f,target_path,unresolved_states,590.0,5.201483371126237,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.9,,0.59
+f,target_path,attainable_gain,590.0,21.734373857069713,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,5.9,,0.59
+f,target_path,ranking_room,600.0,16.532890485943476,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.0,,0.6
+f,target_path,unresolved_states,600.0,5.201483371126237,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.0,,0.6
+f,target_path,attainable_gain,600.0,21.734373857069713,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.0,,0.6
+f,target_path,ranking_room,610.0,17.208202277326702,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.1000000000000005,,0.61
+f,target_path,unresolved_states,610.0,6.094340513983376,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.1000000000000005,,0.61
+f,target_path,attainable_gain,610.0,23.302542791310078,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.1000000000000005,,0.61
+f,target_path,ranking_room,620.0,17.32724989637431,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.2,,0.62
+f,target_path,unresolved_states,620.0,6.094340513983376,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.2,,0.62
+f,target_path,attainable_gain,620.0,23.421590410357684,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.2,,0.62
+f,target_path,ranking_room,630.0,17.45361988881574,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.300000000000001,,0.63
+f,target_path,unresolved_states,630.0,6.466364323507179,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.300000000000001,,0.63
+f,target_path,attainable_gain,630.0,23.91998421232292,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.300000000000001,,0.63
+f,target_path,ranking_room,640.0,17.57266750786336,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.4,,0.64
+f,target_path,unresolved_states,640.0,6.466364323507179,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.4,,0.64
+f,target_path,attainable_gain,640.0,24.03903183137054,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.4,,0.64
+f,target_path,ranking_room,650.0,17.749135944700456,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.5,,0.65
+f,target_path,unresolved_states,650.0,6.069538926681783,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.5,,0.65
+f,target_path,attainable_gain,650.0,23.81867487138224,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.5,,0.65
+f,target_path,ranking_room,660.0,17.86818356374806,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.6000000000000005,,0.66
+f,target_path,unresolved_states,660.0,6.8048684120112775,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.6000000000000005,,0.66
+f,target_path,attainable_gain,660.0,24.67305197575934,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.6000000000000005,,0.66
+f,target_path,ranking_room,670.0,18.2451676907322,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.7,,0.67
+f,target_path,unresolved_states,670.0,6.8048684120112775,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.7,,0.67
+f,target_path,attainable_gain,670.0,25.050036102743476,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.7,,0.67
+f,target_path,ranking_room,680.0,18.111239119303622,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.800000000000001,,0.68
+f,target_path,unresolved_states,680.0,6.923916031058896,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.800000000000001,,0.68
+f,target_path,attainable_gain,680.0,25.03515515036252,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.800000000000001,,0.68
+f,target_path,ranking_room,690.0,18.210445468509974,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.9,,0.69
+f,target_path,unresolved_states,690.0,6.923916031058896,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.9,,0.69
+f,target_path,attainable_gain,690.0,25.13436149956887,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,6.9,,0.69
+f,target_path,ranking_room,700.0,18.739545997610495,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.0,,0.7
+f,target_path,unresolved_states,700.0,6.824709681852548,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.0,,0.7
+f,target_path,attainable_gain,700.0,25.564255679463045,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.0,,0.7
+f,target_path,ranking_room,710.0,19.221923536439668,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.1000000000000005,,0.71
+f,target_path,unresolved_states,710.0,6.70025080739366,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.1000000000000005,,0.71
+f,target_path,attainable_gain,710.0,25.922174343833326,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.1000000000000005,,0.71
+f,target_path,ranking_room,720.0,18.91438385389999,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.2,,0.72
+f,target_path,unresolved_states,720.0,6.4026317597746125,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.2,,0.72
+f,target_path,attainable_gain,720.0,25.317015613674606,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.2,,0.72
+f,target_path,ranking_room,730.0,18.576655572623313,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.300000000000001,,0.73
+f,target_path,unresolved_states,730.0,6.6704889026317655,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.300000000000001,,0.73
+f,target_path,attainable_gain,730.0,25.247144475255077,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.300000000000001,,0.73
+f,target_path,ranking_room,740.0,18.715544461512195,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.4,,0.74
+f,target_path,unresolved_states,740.0,6.6704889026317655,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.4,,0.74
+f,target_path,attainable_gain,740.0,25.386033364143962,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.4,,0.74
+f,target_path,ranking_room,750.0,18.341653865847412,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.5,,0.75
+f,target_path,unresolved_states,750.0,6.6704889026317655,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.5,,0.75
+f,target_path,attainable_gain,750.0,25.01214276847918,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.5,,0.75
+f,target_path,ranking_room,760.0,18.116786140979684,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.6000000000000005,,0.76
+f,target_path,unresolved_states,760.0,6.72009207723494,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.6000000000000005,,0.76
+f,target_path,attainable_gain,760.0,24.836878218214625,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.6000000000000005,,0.76
+f,target_path,ranking_room,770.0,17.527216979981958,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.7,,0.77
+f,target_path,unresolved_states,770.0,6.72009207723494,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.7,,0.77
+f,target_path,attainable_gain,770.0,24.2473090572169,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.7,,0.77
+f,target_path,ranking_room,780.0,17.933536317752914,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.800000000000001,,0.78
+f,target_path,unresolved_states,780.0,6.521679378822231,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.800000000000001,,0.78
+f,target_path,attainable_gain,780.0,24.455215696575145,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.800000000000001,,0.78
+f,target_path,ranking_room,790.0,18.082345841562436,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.9,,0.79
+f,target_path,unresolved_states,790.0,6.521679378822231,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.9,,0.79
+f,target_path,attainable_gain,790.0,24.604025220384667,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,7.9,,0.79
+f,target_path,ranking_room,800.0,18.348831468071086,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.0,,0.8
+f,target_path,unresolved_states,800.0,6.119893664536525,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.0,,0.8
+f,target_path,attainable_gain,800.0,24.46872513260761,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.0,,0.8
+f,target_path,ranking_room,810.0,18.3190695633092,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.1,,0.81
+f,target_path,unresolved_states,810.0,7.143844911702047,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.1,,0.81
+f,target_path,attainable_gain,810.0,25.462914475011246,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.1,,0.81
+f,target_path,ranking_room,820.0,18.209515885207118,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.200000000000001,,0.82
+f,target_path,unresolved_states,820.0,6.667654435511594,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.200000000000001,,0.82
+f,target_path,attainable_gain,820.0,24.87717032071871,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.200000000000001,,0.82
+f,target_path,ranking_room,830.0,17.903393436227528,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.3,,0.83
+f,target_path,unresolved_states,830.0,6.667654435511583,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.3,,0.83
+f,target_path,attainable_gain,830.0,24.57104787173911,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.3,,0.83
+f,target_path,ranking_room,840.0,17.446617535903254,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.4,,0.84
+f,target_path,unresolved_states,840.0,6.935511578368725,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.4,,0.84
+f,target_path,attainable_gain,840.0,24.38212911427198,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.4,,0.84
+f,target_path,ranking_room,850.0,17.96889096140248,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.5,,0.85
+f,target_path,unresolved_states,850.0,7.158725864083015,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.5,,0.85
+f,target_path,attainable_gain,850.0,25.127616825485497,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.5,,0.85
+f,target_path,ranking_room,860.0,17.750423646160968,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.6,,0.86
+f,target_path,unresolved_states,860.0,7.35217824503539,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.6,,0.86
+f,target_path,attainable_gain,860.0,25.102601891196358,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.6,,0.86
+f,target_path,ranking_room,870.0,17.351731463194596,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.700000000000001,,0.87
+f,target_path,unresolved_states,870.0,7.7688449117020495,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.700000000000001,,0.87
+f,target_path,attainable_gain,870.0,25.120576374896647,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.700000000000001,,0.87
+f,target_path,ranking_room,880.0,16.776334637797774,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.8,,0.88
+f,target_path,unresolved_states,880.0,7.962297292654435,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.8,,0.88
+f,target_path,attainable_gain,880.0,24.738631930452208,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.8,,0.88
+f,target_path,ranking_room,890.0,17.438891327140173,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.9,,0.89
+f,target_path,unresolved_states,890.0,7.337297292654432,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.9,,0.89
+f,target_path,attainable_gain,890.0,24.776188619794603,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,8.9,,0.89
+f,target_path,ranking_room,900.0,16.992958025504105,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.0,,0.9
+f,target_path,unresolved_states,900.0,8.147482477839624,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.0,,0.9
+f,target_path,attainable_gain,900.0,25.14044050334373,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.0,,0.9
+f,target_path,ranking_room,910.0,16.033536622534317,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.1,,0.91
+f,target_path,unresolved_states,910.0,8.464942795299935,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.1,,0.91
+f,target_path,attainable_gain,910.0,24.498479417834254,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.1,,0.91
+f,target_path,ranking_room,920.0,15.675753724428837,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.200000000000001,,0.92
+f,target_path,unresolved_states,920.0,8.36573644609359,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.200000000000001,,0.92
+f,target_path,attainable_gain,920.0,24.04149017052243,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.200000000000001,,0.92
+f,target_path,ranking_room,930.0,15.363962341208886,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.3,,0.93
+f,target_path,unresolved_states,930.0,8.365736446093585,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.3,,0.93
+f,target_path,attainable_gain,930.0,23.72969878730247,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.3,,0.93
+f,target_path,ranking_room,940.0,13.72736236071489,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.4,,0.94
+f,target_path,unresolved_states,940.0,8.187165017522164,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.4,,0.94
+f,target_path,attainable_gain,940.0,21.914527378237054,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.4,,0.94
+f,target_path,ranking_room,950.0,13.421971387121157,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.5,,0.95
+f,target_path,unresolved_states,950.0,8.030088297945442,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.5,,0.95
+f,target_path,attainable_gain,950.0,21.4520596850666,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.5,,0.95
+f,target_path,ranking_room,960.0,12.580652780825584,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.600000000000001,,0.96
+f,target_path,unresolved_states,960.0,7.236437504294652,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.600000000000001,,0.96
+f,target_path,attainable_gain,960.0,19.817090285120237,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.600000000000001,,0.96
+f,target_path,ranking_room,970.0,11.969352705239803,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.700000000000001,,0.97
+f,target_path,unresolved_states,970.0,7.767900089328661,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.700000000000001,,0.97
+f,target_path,attainable_gain,970.0,19.737252794568462,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.700000000000001,,0.97
+f,target_path,ranking_room,980.0,10.136397300855826,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.8,,0.98
+f,target_path,unresolved_states,980.0,7.456151652580223,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.8,,0.98
+f,target_path,attainable_gain,980.0,17.59254895343605,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.8,,0.98
+f,target_path,ranking_room,990.0,9.610649367273794,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.9,,0.99
+f,target_path,unresolved_states,990.0,7.7537707001992695,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.9,,0.99
+f,target_path,attainable_gain,990.0,17.364420067473063,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,9.9,,0.99
+f,target_path,ranking_room,1000.0,8.610387255260527,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.0,,1.0
+f,target_path,unresolved_states,1000.0,7.640392015392017,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.0,,1.0
+f,target_path,attainable_gain,1000.0,16.250779270652544,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.0,,1.0
+f,target_path,ranking_room,1010.0,8.972772352668661,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.100000000000001,,1.01
+f,target_path,unresolved_states,1010.0,5.722402597402604,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.100000000000001,,1.01
+f,target_path,attainable_gain,1010.0,14.695174950071266,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.100000000000001,,1.01
+f,target_path,ranking_room,1020.0,9.268524614146727,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.200000000000001,,1.02
+f,target_path,unresolved_states,1020.0,5.052759740259741,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.200000000000001,,1.02
+f,target_path,attainable_gain,1020.0,14.321284354406469,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.200000000000001,,1.02
+f,target_path,ranking_room,1030.0,8.090422548947892,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.3,,1.03
+f,target_path,unresolved_states,1030.0,5.300775613275613,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.3,,1.03
+f,target_path,attainable_gain,1030.0,13.391198162223505,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.3,,1.03
+f,target_path,ranking_room,1040.0,7.636526832955404,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.4,,1.04
+f,target_path,unresolved_states,1040.0,5.399981962481962,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.4,,1.04
+f,target_path,attainable_gain,1040.0,13.036508795437367,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.4,,1.04
+f,target_path,ranking_room,1050.0,7.515681003584233,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.5,,1.05
+f,target_path,unresolved_states,1050.0,5.201569264069262,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.5,,1.05
+f,target_path,attainable_gain,1050.0,12.717250267653494,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.5,,1.05
+f,target_path,ranking_room,1060.0,6.546407541511227,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.600000000000001,,1.06
+f,target_path,unresolved_states,1060.0,4.188762626262629,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.600000000000001,,1.06
+f,target_path,attainable_gain,1060.0,10.735170167773855,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.600000000000001,,1.06
+f,target_path,ranking_room,1070.0,6.65094756540609,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.700000000000001,,1.07
+f,target_path,unresolved_states,1070.0,3.9109848484848495,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.700000000000001,,1.07
+f,target_path,attainable_gain,1070.0,10.56193241389094,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.700000000000001,,1.07
+f,target_path,ranking_room,1080.0,6.153544303025867,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.8,,1.08
+f,target_path,unresolved_states,1080.0,3.9109848484848495,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.8,,1.08
+f,target_path,attainable_gain,1080.0,10.064529151510715,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.8,,1.08
+f,target_path,ranking_room,1090.0,5.510303135591152,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.9,,1.09
+f,target_path,unresolved_states,1090.0,3.7170815295815314,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.9,,1.09
+f,target_path,attainable_gain,1090.0,9.227384665172684,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,10.9,,1.09
+f,target_path,ranking_room,1100.0,4.603578438543877,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.0,,1.1
+f,target_path,unresolved_states,1100.0,3.791035353535352,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.0,,1.1
+f,target_path,attainable_gain,1100.0,8.39461379207923,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.0,,1.1
+f,target_path,ranking_room,1110.0,4.483890778533636,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.100000000000001,,1.11
+f,target_path,unresolved_states,1110.0,2.99738455988456,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.100000000000001,,1.11
+f,target_path,attainable_gain,1110.0,7.481275338418197,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.100000000000001,,1.11
+f,target_path,ranking_room,1120.0,4.628448601662888,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.200000000000001,,1.12
+f,target_path,unresolved_states,1120.0,2.99738455988456,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.200000000000001,,1.12
+f,target_path,attainable_gain,1120.0,7.6258331615474475,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.200000000000001,,1.12
+f,target_path,ranking_room,1130.0,3.801729024943311,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.3,,1.13
+f,target_path,unresolved_states,1130.0,2.9973845598845585,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.3,,1.13
+f,target_path,attainable_gain,1130.0,6.79911358482787,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.3,,1.13
+f,target_path,ranking_room,1140.0,3.5147392290249426,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.4,,1.14
+f,target_path,unresolved_states,1140.0,2.724116161616161,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.4,,1.14
+f,target_path,attainable_gain,1140.0,6.2388553906411035,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.4,,1.14
+f,target_path,ranking_room,1150.0,3.078939909297053,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.5,,1.15
+f,target_path,unresolved_states,1150.0,2.5753066378066376,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.5,,1.15
+f,target_path,attainable_gain,1150.0,5.654246547103691,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.5,,1.15
+f,target_path,ranking_room,1160.0,2.02735260770975,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.600000000000001,,1.16
+f,target_path,unresolved_states,1160.0,2.7737193362193353,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.600000000000001,,1.16
+f,target_path,attainable_gain,1160.0,4.801071943929085,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.600000000000001,,1.16
+f,target_path,ranking_room,1170.0,1.6659580498866204,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.700000000000001,,1.17
+f,target_path,unresolved_states,1170.0,3.0713383838383836,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.700000000000001,,1.17
+f,target_path,attainable_gain,1170.0,4.737296433725004,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.700000000000001,,1.17
+f,target_path,ranking_room,1180.0,1.6659580498866216,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.8,,1.18
+f,target_path,unresolved_states,1180.0,2.728625541125541,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.8,,1.18
+f,target_path,attainable_gain,1180.0,4.394583591012163,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.8,,1.18
+f,target_path,ranking_room,1190.0,1.4533730158730167,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.9,,1.19
+f,target_path,unresolved_states,1190.0,1.8898809523809519,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.9,,1.19
+f,target_path,attainable_gain,1190.0,3.3432539682539684,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,11.9,,1.19
+f,target_path,ranking_room,1200.0,1.5525793650793647,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.0,,1.2
+f,target_path,unresolved_states,1200.0,1.5922619047619047,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.0,,1.2
+f,target_path,attainable_gain,1200.0,3.1448412698412693,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.0,,1.2
+f,target_path,ranking_room,1210.0,1.552579365079365,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.100000000000001,,1.21
+f,target_path,unresolved_states,1210.0,1.294642857142857,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.100000000000001,,1.21
+f,target_path,attainable_gain,1210.0,2.847222222222222,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.100000000000001,,1.21
+f,target_path,ranking_room,1220.0,1.0317460317460319,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.200000000000001,,1.22
+f,target_path,unresolved_states,1220.0,0.8184523809523808,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.200000000000001,,1.22
+f,target_path,attainable_gain,1220.0,1.8501984126984126,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.200000000000001,,1.22
+f,target_path,ranking_room,1230.0,0.0,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.3,,1.23
+f,target_path,unresolved_states,1230.0,0.0,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.3,,1.23
+f,target_path,attainable_gain,1230.0,0.0,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.3,,1.23
+f,target_path,ranking_room,1240.0,0.0,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.4,,1.24
+f,target_path,unresolved_states,1240.0,0.0,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.4,,1.24
+f,target_path,attainable_gain,1240.0,0.0,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.4,,1.24
+f,target_path,ranking_room,1250.0,0.0,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.5,,1.25
+f,target_path,unresolved_states,1250.0,0.0,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.5,,1.25
+f,target_path,attainable_gain,1250.0,0.0,pp,,,,,,TITMC_PAPER01_selection_utility_target_plane.csv,,,,,,12.5,,1.25

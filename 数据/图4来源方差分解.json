@@ -1,0 +1,25 @@
+{
+  "schema": "titmc.paper01.variance_decomposition.v1",
+  "cohorts": {
+    "room_temperature": {
+      "pairs": 1233,
+      "sources": 366,
+      "uts_between_source_variance_share": 0.9282177441422145,
+      "el_between_source_variance_share": 0.8234432834577913,
+      "slope_within_source_MPa_per_pp": -11.098971005104103,
+      "slope_between_source_MPa_per_pp": 2.3473088315814366,
+      "slope_equal_source_pooled_MPa_per_pp": -0.026722186091477914
+    },
+    "500_to_800C": {
+      "pairs": 458,
+      "sources": 108,
+      "uts_between_source_variance_share": 0.8587741193468363,
+      "el_between_source_variance_share": 0.8427566828812842,
+      "slope_within_source_MPa_per_pp": -9.283962347666964,
+      "slope_between_source_MPa_per_pp": 2.203270201986281,
+      "slope_equal_source_pooled_MPa_per_pp": 0.39697965136472696
+    }
+  },
+  "estimator": "Equal-source weights w = 1/(G n_g) (Equation 1); V_B and V_W are the between- and within-source terms of the weighted variance; b_B = C_B / V_B and b_W = C_W / V_W (Equations 2-4).",
+  "code": "figures/CODE_TITMC_FIG08_strength_ductility.py::association(moments_only=True)"
+}

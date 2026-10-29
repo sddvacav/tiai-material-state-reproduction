@@ -1,0 +1,1324 @@
+{
+  "thresholds": {
+    "min_raw_n": 20,
+    "min_paperfamilies": 5,
+    "min_informative_paperfamilies": 5,
+    "claim_min_paperfamilies": 10,
+    "bootstrap_reps": 500,
+    "seed": 20260907,
+    "min_locator_coverage_claim": 0.8,
+    "max_largest_family_share_claim": 0.25,
+    "min_lofo_sign_stability_claim": 0.85,
+    "min_meta_families": 5
+  },
+  "controls": [],
+  "state_identity": "PaperFamily + explicit material/feature/specimen/sample/process identity; exact recorded endpoint conditions. analysis_comparison_key is condition metadata only.",
+  "room_temperature": {
+    "numeric_range_c": [
+      15,
+      35
+    ],
+    "numeric_states": [
+      "REPORTED"
+    ],
+    "textual_states": [
+      "REPORTED_ROOM_TEMPERATURE",
+      "ROOM_TEMPERATURE_REPORTED_NO_NUMERIC_ASSUMPTION",
+      "REPORTED_RT_NO_NUMERIC",
+      "REPORTED_APPROXIMATE_RT"
+    ],
+    "definition": "Reported numeric 15-35 C or an explicit source-reported room-temperature state with no numerical Celsius; no numerical imputation."
+  },
+  "bootstrap_index_default": {
+    "index_device": "cpu",
+    "recorded_rng": "torch.Generator(device=cpu) and torch.randint; same sampling protocol, not bitwise CUDA draws"
+  },
+  "bootstrap_index_overrides": [
+    {
+      "row_id": "Al_raw",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "V_raw",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "V_raw",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Mo_raw",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Mo_raw",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Zr_raw",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Fe_raw",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_T",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_time",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "scan_speed",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "layer_thickness",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_frac",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_frac",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_vf",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_vf",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_size",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "V_raw",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "V_raw",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Mo_raw",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "C",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "C",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "C",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "C",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_T",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_T",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_T",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_T",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_T",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_T",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_time",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_time",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_time",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_time",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_time",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_time",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_T",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_T",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_T",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_time",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_time",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_time",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_transus",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_transus",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_transus",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_transus",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_transus",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_transus",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_transus",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_frac",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_frac",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_frac",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_frac",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_prime_frac",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_prime_frac",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_prime_frac",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_prime_frac",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_prime_frac",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_prime_frac",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_prime_frac",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "grain_size",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "grain_size",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "grain_size",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "grain_size",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "grain_size",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "grain_size",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "grain_size",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_lath",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_lath",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_lath",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_vf",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_vf",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_size",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_size",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_size",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "porosity",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "porosity",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "porosity",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "porosity",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "porosity",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "porosity",
+      "col_id": "HV_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "porosity",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "porosity",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Mo_raw",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Mo_raw",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Zr_raw",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Zr_raw",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Fe_raw",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Zr_raw",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Sn_raw",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Sn_raw",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Sn_raw",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Sn_raw",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "O",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "O",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "N",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "N",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "H",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "H",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "C",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "C",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Fe_raw",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Fe_raw",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_T",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_time",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_T",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_T",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_time",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_time",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "laser_power",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "laser_power",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "scan_speed",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "scan_speed",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "VED",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "VED",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "preheat_T",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "preheat_T",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "layer_thickness",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "layer_thickness",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_transus",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_frac",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_frac",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_frac",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_frac",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_prime_frac",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "grain_size",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_lath",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_lath",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "prior_beta_grain",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "prior_beta_grain",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "prior_beta_grain",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "prior_beta_grain",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_AR",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_AR",
+      "col_id": "EL_unspecified_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "V_raw",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "O",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "N",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "UTS_300_500_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "UTS_500_700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Al_raw",
+      "col_id": "creep_rupture_gated",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "V_raw",
+      "col_id": "UTS_300_500_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "V_raw",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "V_raw",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "V_raw",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Mo_raw",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Mo_raw",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "UTS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "UTS_300_500_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "YS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "YS_RT_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "HV_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Nb_raw",
+      "col_id": "creep_rupture_gated",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Zr_raw",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "Sn_raw",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "C",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "UTS_500_700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_pbf",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "UTS_500_700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::am_ded",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "UTS_500_700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::wrought",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "UTS_500_700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::cast",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "UTS_500_700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "UTS_GE700_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "route::pm",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_T",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "solution_time",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_T",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_time",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "aging_time",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "laser_power",
+      "col_id": "UTS_300_500_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "preheat_T",
+      "col_id": "UTS_300_500_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "preheat_T",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "preheat_T",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_transus",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha_frac",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_frac",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "beta_frac",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "alpha2_frac",
+      "col_id": "UTS_300_500_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "grain_size",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "colony_size",
+      "col_id": "UTS_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "colony_size",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "colony_size",
+      "col_id": "EL_unspecified_RT_Ti",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_vf",
+      "col_id": "UTS_300_500_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_vf",
+      "col_id": "UTS_500_700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "reinforcement_vf",
+      "col_id": "UTS_GE700_TMC",
+      "index_device": "cuda"
+    },
+    {
+      "row_id": "porosity",
+      "col_id": "E_RT_Ti",
+      "index_device": "cuda"
+    }
+  ],
+  "execution_scope": "Historical integer sampling plans; all numerical ranks, correlations and quantiles execute on CUDA."
+}

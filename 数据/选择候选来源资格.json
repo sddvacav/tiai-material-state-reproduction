@@ -1,0 +1,300 @@
+{
+  "schema": "tiai.source_qualification.v1",
+  "rule": "Exclude the listed endpoint pairs from the frozen predictions; compare sources with at least two retained candidates.",
+  "frozen_pool": {
+    "candidates": 1111,
+    "sources": 336
+  },
+  "removed_pairs": [
+    {
+      "observation_id_uts": "feature-observation:0109c7454c1cbef03f297309c14db9ef",
+      "observation_id_el": "feature-observation:2601c69beb4ae9762835935b60308f0c",
+      "paper_family_id": "PF_DOI_d53be46df15e3d55cdb7",
+      "source_endpoint_exclusion": "10.4028/www.scientific.net/msf.849.340; Experiment;Table2 original p343;Fig4 preceding paragraph; Two preserved original-PDF extraction blocks; native PDF unavailable; extracted block ends after p5. Rm1250 and delta14 are in the bimodal column, distinct from proof stress1130; Fig4 true stress-strain does not establish engineering definition of table Rm."
+    },
+    {
+      "observation_id_uts": "feature-observation:0329f17852afa4e2430e8dd9cfaf5320",
+      "observation_id_el": "feature-observation:46e294b8b869be7b585cb744f9793540",
+      "paper_family_id": "PFI-f608f9d51ed436de",
+      "source_endpoint_exclusion": "10.1016/j.jmrt.2022.04.084; Original abstract FGFQ Ti3Al2.5V; multiple forming/baseline states; stored757MPa/16.2% pair not uniquely bound; independently recorded833MPa/9.6% siblings are retained."
+    },
+    {
+      "observation_id_uts": "feature-observation:0414de034ec6d8eda15df7b787a6e18d",
+      "observation_id_el": "feature-observation:fa9ca09c4fdfbbf5b8f11a68ce147a1c",
+      "paper_family_id": "PF_DOI_1cdc8e16516cddb9e2e6",
+      "source_endpoint_exclusion": "10.3390/app152111717; Table2 p18;Fig17 p17;section4 p20; Native publisher PDF; room-temperature strength is stated in discussion; engineering stress-strain is explicit."
+    },
+    {
+      "observation_id_uts": "feature-observation:1865803815f84ca6dbbd46d210e55f67",
+      "observation_id_el": "feature-observation:859c0cfb9d6bb2aca8245a7393bb217e",
+      "paper_family_id": "PF-e2c3643656d1300c",
+      "source_endpoint_exclusion": "10.1016/j.jmst.2021.12.036; Official publisher abstract:HEA-interlayer Ti22Al27Nb weld1062MPa/11.2%,base metal1060MPa/13.4%; frozen1062MPa/22.54% combinations contradict the author pairs. Do not replace saved predictions with current corrected endpoints."
+    },
+    {
+      "observation_id_uts": "feature-observation:1b4d3ac090c24d1d9d50dd2fbe3686b3",
+      "observation_id_el": "feature-observation:b2948d3ba5c5cc225ab94e3d7d88bb00",
+      "paper_family_id": "PF-e804dea93ed92241",
+      "source_endpoint_exclusion": "Existing BM alias collapse"
+    },
+    {
+      "observation_id_uts": "feature-observation:29e68b93be5306b90d4808e1586e2b1b",
+      "observation_id_el": "feature-observation:e1a3953d2482c3b811abf870394ca5d1",
+      "paper_family_id": "PF-74677c2448ec82c7",
+      "source_endpoint_exclusion": "10.1016/j.matdes.2023.112488; p0065;Table3 t0015;Fig11 cn0055;Fig12 cn0060; Native publisher XML bd9a24cbd014f098d19d9a018b481dbc6113bfeb65b00d1fe73517ade8997707; Table3 as-built RT UTS1306+/-1MPa,EL12.0+/-0.3%; engineering strain and elongation to failure explicit."
+    },
+    {
+      "observation_id_uts": "feature-observation:2c3596a9f3a5947eaa90c3f40f8807de",
+      "observation_id_el": "feature-observation:88f17863b9b7a5f2047612bd660d3cb8",
+      "paper_family_id": "PF-5d29ef28d9f5e88b",
+      "source_endpoint_exclusion": "10.1016/j.jallcom.2023.172404; p0055;p0065;p0110;Fig6b,d; Native publisher XML b298f7e38040430e90e9f1f58b3b8343b20864ea1cec5e443b56bc4fad518eeb; engineering stress-strain explicit; cooling to room temperature is not tensile-test temperature."
+    },
+    {
+      "observation_id_uts": "feature-observation:31b364b8bbb25966f20884daecbef102",
+      "observation_id_el": "feature-observation:3eebff078b236d22d1f3e0af62f9d73c",
+      "paper_family_id": "PFI-f608f9d51ed436de",
+      "source_endpoint_exclusion": "10.1016/j.jmrt.2022.04.084; Original abstract FGFQ Ti3Al2.5V; multiple forming/baseline states; stored757MPa/16.2% pair not uniquely bound; independently recorded833MPa/9.6% siblings are retained."
+    },
+    {
+      "observation_id_uts": "feature-observation:34b921c913d57f4749dab62e0a93600f",
+      "observation_id_el": "feature-observation:4ee3c068f63543f610cae8e16caed08e",
+      "paper_family_id": "PF-0082a3a500cd5781",
+      "source_endpoint_exclusion": "10.1016/j.matdes.2025.115043; p0050-p0065;p0090;Fig6a; Native publisher XML a6dc8de221dac6aa96f6fcc93a5efc287155f9c02438fda5a50a2fa0298e2008; ex-situ engineering stress-strain; in-situ stress-displacement panels are a different measurement."
+    },
+    {
+      "observation_id_uts": "feature-observation:393726af39f0d51480f9216c77f80246",
+      "observation_id_el": "feature-observation:b537de2f83a9b503e4c0250967191fd5",
+      "paper_family_id": "PF-a002484bc0f6f928",
+      "source_endpoint_exclusion": "10.1016/j.heliyon.2024.e40200; Table8 second data row;stored Fig19 is hardness; Native review XMLdda0a5d58789cf6ca076b97f2d4b7a99dea14253a814f4c9de4369fd8fc7504d;914/18.3 printed together but reference cell empty; adjacent-row citations cannot establish original experiment or temperature.;SECONDARY_SOURCE_UNATTRIBUTED"
+    },
+    {
+      "observation_id_uts": "feature-observation:3b72b919701f87a72ae9c8e3500a51e6",
+      "observation_id_el": "feature-observation:6dcfb500b8ea33f7fab15f0b5676be6d",
+      "paper_family_id": "PFI-f608f9d51ed436de",
+      "source_endpoint_exclusion": "10.1016/j.jmrt.2022.04.084; Original abstract FGFQ Ti3Al2.5V; multiple forming/baseline states; stored757MPa/16.2% pair not uniquely bound; independently recorded833MPa/9.6% siblings are retained."
+    },
+    {
+      "observation_id_uts": "feature-observation:4873fb4622f97dfc3a6914080ef4d0b1",
+      "observation_id_el": "feature-observation:fe6de16f5ef94f39f0cbe249e6c8f71d",
+      "paper_family_id": "PF-53aa62a0c805f125",
+      "source_endpoint_exclusion": "10.1016/j.jmatprotec.2019.02.006; Table 2 tbl0010; par0030, par0040, par0045; Table2_row1_Ti64; Duplicate extraction of the same native Table 2 baseline state/endpoint; canonical retained record is feature-observation:73f361456a8859b42d5eb59aedd2f9dd. It is not an additional tested specimen or source."
+    },
+    {
+      "observation_id_uts": "feature-observation:4a24e94c3f910648802173a654f593e5",
+      "observation_id_el": "feature-observation:3ba80fa3b2b2b36b5879de969468245d",
+      "paper_family_id": "PFI-ba3da182d3fa6ad5",
+      "source_endpoint_exclusion": "10.1016/j.msea.2021.141326; Fig4b;section3.3;cited Schmidt et al. comparison; Two agreeing original-PDF text extractions; native PDF unavailable. Beta-annealed Beta-C739+/-17MPa/EL>20%;cited wrought solution-treated Beta-C794MPa/25%. Stored794/20 is neither pair;20 is not an exact author value for cited794 state.;STATE_BINDING_CONTRADICTED"
+    },
+    {
+      "observation_id_uts": "feature-observation:4e37bf453c7ecb54021f411880a46553",
+      "observation_id_el": "feature-observation:1d5f4e82d396f0ba4f36badf60834643",
+      "paper_family_id": "PF-9783740a7385c3f8",
+      "source_endpoint_exclusion": "10.1016/j.matchar.2020.110321; Original abstract binds1083MPa/4.6% to TC4-20wt%TiAl blend; stored pure-grade aliases do not uniquely identify that composite measurement."
+    },
+    {
+      "observation_id_uts": "feature-observation:4ed498e31ec3ed69222ca6dba1cdf9a0",
+      "observation_id_el": "feature-observation:49493bffe539851e48c02733db14bbdf",
+      "paper_family_id": "PF-9783740a7385c3f8",
+      "source_endpoint_exclusion": "10.1016/j.matchar.2020.110321; Original abstract binds1083MPa/4.6% to TC4-20wt%TiAl blend; stored pure-grade aliases do not uniquely identify that composite measurement."
+    },
+    {
+      "observation_id_uts": "feature-observation:5712bf82b6937f62797c4ab10e312527",
+      "observation_id_el": "feature-observation:b664fbb10e5217e3aade74c7df68f9d2",
+      "paper_family_id": "PFI-18b0dd9cd1db5700",
+      "source_endpoint_exclusion": "10.1016/j.compositesb.2012.01.075; Table1;section3.3;Fig5;stored Fig1 is microscopy; Preserved full-text extraction;1072 is not explicit text; discussion uses yield sigma_y and elongation A; near-equal UTS/YS cannot establish identity; no calibrated state-bound locator for1072/18."
+    },
+    {
+      "observation_id_uts": "feature-observation:5d0e8e42fe1664a511d0d6d90258d580",
+      "observation_id_el": "feature-observation:6bce5c50dc4b02cac9e36a898e707136",
+      "paper_family_id": "PF_DOI_9a97dc297f0ab75b953f",
+      "source_endpoint_exclusion": "10.1016/j.msea.2020.139533; Table3 DA row; Experimental p2; appended corrigendum10.1016/j.msea.2020.139938 Table3; Preserved full-text extraction and appended corrigendum; the corrigendum does not specifically identify the DA row as corrected."
+    },
+    {
+      "observation_id_uts": "feature-observation:60e8342f641dd9543f727601ff5c2515",
+      "observation_id_el": "feature-observation:764356d9bece39f6207527ec57e7edb1",
+      "paper_family_id": "PF-89645220619a56f4",
+      "source_endpoint_exclusion": "10.1016/j.compositesb.2018.11.110; p0035,p0040,p0045,p0060,p0080,p0085; Table 1; Ti_1.5wt_ND_feed; Duplicate extraction of the same Table 1 / Fig.9a nanodiamond loading and endpoint; canonical retained record is feature-observation:c41e73947facaeef754158bed2b8818b. Differing 20/25C, rounded strain rate, and pseudo-solution time do not define distinct experiments in p0040/p0045."
+    },
+    {
+      "observation_id_uts": "feature-observation:6d0a476b168195633453af7078ef6b31",
+      "observation_id_el": "feature-observation:ad4d8e345065e66252ec0f6402d1b1b5",
+      "paper_family_id": "PF_DOI_9d09d3779dd43ce9628b",
+      "source_endpoint_exclusion": "10.1016/j.scriptamat.2009.12.008; ce:para5,14,17;fig4/gr4; Native publisher XML archived publisher XML; Fig4 unavailable. As-rolled UTS895;1h annealedUTS915;19% discussed with annealing then generic HRDSR, not uniquely paired with895. Engineering stress-engineering strain caption explicit."
+    },
+    {
+      "observation_id_uts": "feature-observation:70a852498c924a01bd50643455b4948d",
+      "observation_id_el": "feature-observation:7e84c8605f1c9096d377556dfd19ebd8",
+      "paper_family_id": "PF-2608c899782be63e",
+      "source_endpoint_exclusion": "Existing cross-state/citation exclusion"
+    },
+    {
+      "observation_id_uts": "feature-observation:77a405f50301cd2e9ee3b96ed1e2cd5b",
+      "observation_id_el": "feature-observation:8e24c195cdb0d14d01ea17234f9c0125",
+      "paper_family_id": "PF-46e47b111e4e467b",
+      "source_endpoint_exclusion": "10.1016/j.matchar.2023.113043; p0065;p0100;Fig9; Native publisher XML2b2c2dbe568675d864a5fdc5a97a2973bac45b452c73358e48c55c6c3ded2095; stored pair lacks an explicit author pair or state-specific digitization locator; do not substitute another author pair."
+    },
+    {
+      "observation_id_uts": "feature-observation:78588157955a653f57becd3c51c77ca9",
+      "observation_id_el": "feature-observation:55bc34752191bcd869c0809313c290c2",
+      "paper_family_id": "PF_DOI_d53be46df15e3d55cdb7",
+      "source_endpoint_exclusion": "10.4028/www.scientific.net/msf.849.340; Experiment;Table2 original p343;Fig4 preceding paragraph; Two preserved original-PDF extraction blocks; native PDF unavailable; extracted block ends after p5. Electric-pulse column Rm1210/delta16 is distinct from proof stress1110; engineering stress definition and tensile temperature not established."
+    },
+    {
+      "observation_id_uts": "feature-observation:8a1d150cf0c11abdf0e57832af0c24b3",
+      "observation_id_el": "feature-observation:80cb87f87c82871afc41e703316ade56",
+      "paper_family_id": "PF-e2c3643656d1300c",
+      "source_endpoint_exclusion": "10.1016/j.jmst.2021.12.036; Official publisher abstract:HEA-interlayer Ti22Al27Nb weld1062MPa/11.2%,base metal1060MPa/13.4%; frozen1062MPa/22.54% combinations contradict the author pairs. Do not replace saved predictions with current corrected endpoints."
+    },
+    {
+      "observation_id_uts": "feature-observation:8fc2a086e84febc69d5fc88b5e345136",
+      "observation_id_el": "feature-observation:d0aceb0291e9fa50ed396630e9bbb78c",
+      "paper_family_id": "PF-a2954fe8440a7111",
+      "source_endpoint_exclusion": "10.1016/j.msea.2025.148260; p0040-p0060;Table3 1-CFR row; Native publisher XML0240e57dd0b31bbe0cd290d5e6f0bc75604befdb7f6812e7969dc01fc06c80da; totalEL17 is distinct from uniformEL5; Ti64 alloy is not a titanium-matrix composite."
+    },
+    {
+      "observation_id_uts": "feature-observation:92b3bfbe774f09fb0d981ae53cf5c612",
+      "observation_id_el": "feature-observation:692ea87411a1f61d78930ac89047c455",
+      "paper_family_id": "PF-a2954fe8440a7111",
+      "source_endpoint_exclusion": "10.1016/j.msea.2025.148260; p0040-p0060;Table3 2-CFR row; Native publisher XML0240e57dd0b31bbe0cd290d5e6f0bc75604befdb7f6812e7969dc01fc06c80da; totalEL15 is distinct from uniformEL5; Ti64 alloy is not a titanium-matrix composite."
+    },
+    {
+      "observation_id_uts": "feature-observation:9bd5b31b07535fdfe27171c1064b2851",
+      "observation_id_el": "feature-observation:4a32f7b3fe321bd1badb2c640f29f9ee",
+      "paper_family_id": "PF-9783740a7385c3f8",
+      "source_endpoint_exclusion": "10.1016/j.matchar.2020.110321; Original abstract binds1083MPa/4.6% to TC4-20wt%TiAl blend; stored pure-grade aliases do not uniquely identify that composite measurement."
+    },
+    {
+      "observation_id_uts": "feature-observation:9c8170bf3dfd7f431b07245c4d976dc4",
+      "observation_id_el": "feature-observation:45b64eb33e0caf22bf19ac26886501a4",
+      "paper_family_id": "PF-5768bc89da438cd7",
+      "source_endpoint_exclusion": "10.1016/j.ijmecsci.2022.107963; para0013;tbl0002;para0031;para0054/0058; Native publisher XML c341701664d865f2a1e5c9a7bf7867e2b3eea2996dac7b522267d97b774d899a; Table2 UTS1390.52+/-17.74MPa; recorded1390 is the author-rounded text value, not the exact table center."
+    },
+    {
+      "observation_id_uts": "feature-observation:a7c26cc109e1ed67346a1967ad3f6843",
+      "observation_id_el": "feature-observation:e82b0a4ca0db97947c2ab06bb5eea62c",
+      "paper_family_id": "PF-73c55aef8afdb10d",
+      "source_endpoint_exclusion": "10.1016/j.scriptamat.2024.116412; para0004;para0008;para0013;Fig3a cap0003; Native publisher XML0ad71ebef7ca942e92d488c32dd12e3150cfb381042087f1ae0b0737a6ad5665; Ti-69 forging-temperature mapping and engineering/true stress definition are not independently established."
+    },
+    {
+      "observation_id_uts": "feature-observation:a9c1b43ae4614fdc74d7010f3feece7d",
+      "observation_id_el": "feature-observation:f8e29c3c48f21f047e2f8099502addf9",
+      "paper_family_id": "PF-e2c3643656d1300c",
+      "source_endpoint_exclusion": "10.1016/j.jmst.2021.12.036; Official publisher abstract:HEA-interlayer Ti22Al27Nb weld1062MPa/11.2%,base metal1060MPa/13.4%; frozen1062MPa/22.54% combinations contradict the author pairs. Do not replace saved predictions with current corrected endpoints."
+    },
+    {
+      "observation_id_uts": "feature-observation:b26a4a2b99e671899012d250a8c5b6b6",
+      "observation_id_el": "feature-observation:c485cbc51d03a06a747aeb2dcb2780cc",
+      "paper_family_id": "PF_DOI_1cdc8e16516cddb9e2e6",
+      "source_endpoint_exclusion": "10.3390/app152111717; Table2 p18;Fig17 p17;section4 p20; Native publisher PDF; room-temperature strength is stated in discussion; engineering stress-strain is explicit."
+    },
+    {
+      "observation_id_uts": "feature-observation:bdb7feb2897cc621f4e5892f7a52bf57",
+      "observation_id_el": "feature-observation:48ab537bbc59d2833fb789db80c21a0d",
+      "paper_family_id": "PF-9783740a7385c3f8",
+      "source_endpoint_exclusion": "10.1016/j.matchar.2020.110321; Original abstract binds1083MPa/4.6% to TC4-20wt%TiAl blend; stored pure-grade aliases do not uniquely identify that composite measurement."
+    },
+    {
+      "observation_id_uts": "feature-observation:cfe3d7095b343cc4ac977f98af060efc",
+      "observation_id_el": "feature-observation:edf9317eacdb58995238cccde6978026",
+      "paper_family_id": "PF-53aa62a0c805f125",
+      "source_endpoint_exclusion": "10.1016/j.jmatprotec.2019.02.006; Table 2 tbl0010; par0030, par0040, par0045; Table2_row4_Ti64; Duplicate extraction of the same native Table 2 baseline state/endpoint; canonical retained record is feature-observation:4a46c5556b1135d2a2dfd64038cc8339. It is not an additional tested specimen or source."
+    },
+    {
+      "observation_id_uts": "feature-observation:d3f0d7b3a980746e85a0c786637d90b2",
+      "observation_id_el": "feature-observation:345a47790a1a1c693e0fdd2e94b9ddb7",
+      "paper_family_id": "PF-e804dea93ed92241",
+      "source_endpoint_exclusion": "Existing BM alias collapse"
+    },
+    {
+      "observation_id_uts": "feature-observation:de221a5d591c501877567039a50b74e6",
+      "observation_id_el": "feature-observation:611558be695327ed4ee5e9c0c4c81579",
+      "paper_family_id": "PF-89645220619a56f4",
+      "source_endpoint_exclusion": "10.1016/j.compositesb.2018.11.110; p0035,p0040,p0045,p0060,p0080,p0085; Table 1; Ti_1wt_ND_feed; Duplicate extraction of the same Table 1 / Fig.9a nanodiamond loading and endpoint; canonical retained record is feature-observation:61a5d8c8f74de1c060d5a844f8a3fb0a. Differing 20/25C, rounded strain rate, and pseudo-solution time do not define distinct experiments in p0040/p0045."
+    },
+    {
+      "observation_id_uts": "feature-observation:de85a51891ce17e52954cf75ffb30f1c",
+      "observation_id_el": "feature-observation:19233bb94c805960572806de717ed1a1",
+      "paper_family_id": "PF-e2c3643656d1300c",
+      "source_endpoint_exclusion": "10.1016/j.jmst.2021.12.036; Official publisher abstract:HEA-interlayer Ti22Al27Nb weld1062MPa/11.2%,base metal1060MPa/13.4%; frozen1062MPa/22.54% combinations contradict the author pairs. Do not replace saved predictions with current corrected endpoints."
+    },
+    {
+      "observation_id_uts": "feature-observation:e90aa8894293f050c72301e031320da4",
+      "observation_id_el": "feature-observation:f48a6d93da7db6aa425a7215f1504fe2",
+      "paper_family_id": "PF-89645220619a56f4",
+      "source_endpoint_exclusion": "10.1016/j.compositesb.2018.11.110; p0035,p0040,p0045,p0060,p0080,p0085; Table 1; Ti_1wt_ND_feed; Duplicate extraction of the same Table 1 / Fig.9a nanodiamond loading and endpoint; canonical retained record is feature-observation:61a5d8c8f74de1c060d5a844f8a3fb0a. Differing 20/25C, rounded strain rate, and pseudo-solution time do not define distinct experiments in p0040/p0045."
+    },
+    {
+      "observation_id_uts": "feature-observation:f1f9c59a78b7d174f0c31966b764d7f5",
+      "observation_id_el": "feature-observation:155757525a88681410c3b61c82674523",
+      "paper_family_id": "PF-2608c899782be63e",
+      "source_endpoint_exclusion": "Existing cross-state/citation exclusion"
+    },
+    {
+      "observation_id_uts": "feature-observation:f3801da9b532be6c476a5388448485c0",
+      "observation_id_el": "feature-observation:5bc05371c86b3908247208c3778cee10",
+      "paper_family_id": "PF-e804dea93ed92241",
+      "source_endpoint_exclusion": "Existing BM alias collapse"
+    },
+    {
+      "observation_id_uts": "feature-observation:fa79e74ab89ae1b523d21c1c8f2a9e4b",
+      "observation_id_el": "feature-observation:a5c6bb2633fc3f1135fd6085d74d2482",
+      "paper_family_id": "PF-53aa62a0c805f125",
+      "source_endpoint_exclusion": "10.1016/j.jmatprotec.2019.02.006; Table 2 tbl0010; par0030, par0040, par0045; Table2_Ti64_5vol_nominal_TiC; Native Table 2 (tbl0010) reports elongation <1%, not an exact 0.9%. The stored scalar is preserved but withheld from point-valued dose estimation."
+    },
+    {
+      "observation_id_uts": "feature-observation:fd23eccc2e2d1052007e763effb842df",
+      "observation_id_el": "feature-observation:ad8ce6830926a07b95c5b35289c716e5",
+      "paper_family_id": "PF-89645220619a56f4",
+      "source_endpoint_exclusion": "10.1016/j.compositesb.2018.11.110; p0035,p0040,p0045,p0060,p0080,p0085; Table 1; Ti_1.5wt_ND_feed; Duplicate extraction of the same Table 1 / Fig.9a nanodiamond loading and endpoint; canonical retained record is feature-observation:c41e73947facaeef754158bed2b8818b. Differing 20/25C, rounded strain rate, and pseudo-solution time do not define distinct experiments in p0040/p0045."
+    },
+    {
+      "observation_id_uts": "feature-observation:fd302c92beaa9db9f2313eb95e5fb1c0",
+      "observation_id_el": "feature-observation:3555b4431fe156e8d2e760387ee79ae0",
+      "paper_family_id": "PF-7a2c883b7705fedf",
+      "source_endpoint_exclusion": "Existing cross-state/citation exclusion"
+    }
+  ],
+  "retained_candidates": 1070,
+  "current_comparison": {
+    "primary": 168,
+    "candidates": 913,
+    "no_observed_hit": 110,
+    "all_candidates_hit": 11,
+    "mixed_hit_status": 47,
+    "any_observed_hit": 58
+  },
+  "representation_resolution": {
+    "candidate_count": 913,
+    "source_local_X_blocks": 592,
+    "all_X_identical_sources": 50,
+    "mixed_hit_status_and_all_X_identical_sources": 19,
+    "composition_varying_sources": 88,
+    "planned_process_varying_sources": 41,
+    "test_condition_varying_sources": 1,
+    "precursor_amount_varying_sources": 0,
+    "categorical_varying_sources": 14,
+    "mixed_identical_fraction": 0.40425531914893614
+  },
+  "qualification_scope": "Endpoint/pair evaluation-cohort exclusion only; C-only unknowns do not alter frozen X, saved predictions or archived model training",
+  "saved_predictions_modified": false,
+  "archived_training_requalified": false,
+  "oracle_means": {
+    "uniform_observed_hit_fraction": 0.1827303025315698,
+    "label_informed_block_oracle_under_random_tie": 0.26883417508417506,
+    "full_recorded_candidate_opportunity": 0.34523809523809523,
+    "mixed_only_uniform_observed_hit_fraction": 0.41912108138944104
+  },
+  "reference_values": {
+    "frozen_candidates": 1111,
+    "frozen_sources": 336,
+    "excluded_pairs": 41,
+    "retained_candidates": 1070,
+    "primary_candidates": 913,
+    "primary_sources": 168,
+    "input_equivalence_blocks": 592,
+    "no_hit_sources": 110,
+    "mixed_hit_sources": 47,
+    "all_hit_sources": 11,
+    "identical_input_sources": 50,
+    "mixed_identical_input_sources": 19
+  }
+}

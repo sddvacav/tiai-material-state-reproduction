@@ -1,0 +1,177 @@
+{
+  "target_plane": {
+    "file": "data/selection_target_plane.csv",
+    "sha256": "5a93f6ee8a917ca77da959ab41a8e61bcb49c04b2b23742d9d19a3825aae1876",
+    "grid": {
+      "uts_mpa": [
+        400.0,
+        1400.0,
+        5.0
+      ],
+      "el_pct": [
+        0.0,
+        20.0,
+        0.1
+      ],
+      "cells": 40401
+    },
+    "path": {
+      "uts_mpa": "1000 t",
+      "el_pct": "10 t",
+      "t": [
+        0.4,
+        1.25,
+        0.01
+      ],
+      "points": 86
+    },
+    "declared_target": {
+      "opportunity_pct": 34.523809523809526,
+      "best_input_block_pct": 26.883417508417505,
+      "uniform_pct": 18.27303025315698,
+      "ranking_room_pp": 8.610387255260527,
+      "unresolved_states_pp": 7.640392015392017,
+      "mixed_sources": 47
+    },
+    "mixed_sources_max": 90,
+    "mixed_share_max_pct": 53.571428571428584,
+    "mixed_share_max_at": {
+      "uts_mpa": 880.0,
+      "el_pct": 6.6000000000000005
+    },
+    "pool_fixed_sources_min": 78,
+    "path_max_pp": {
+      "attainable_gain": {
+        "value": 25.922174343833326,
+        "uts_mpa": 710.0,
+        "el_pct": 7.1000000000000005
+      },
+      "ranking_room": {
+        "value": 19.221923536439668,
+        "uts_mpa": 710.0,
+        "el_pct": 7.1000000000000005
+      },
+      "unresolved_states": {
+        "value": 8.464942795299935,
+        "uts_mpa": 910.0,
+        "el_pct": 9.1
+      }
+    },
+    "plane_max_pp": {
+      "attainable": 27.602473744466828,
+      "ranking": 19.663818484383004,
+      "unresolved": 9.427609427609429
+    },
+    "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+    "torch": "2.11.0+cu128",
+    "dtype": "float64",
+    "definition": "Observed-label references recounted on the saved 913 candidates for every joint target; diagnostics, not deployable policies, probabilities or Bayes ceilings. The recount reproduces the saved values at 1,000 MPa and 10%."
+  },
+  "denominators": {
+    "primary_sources": 168,
+    "primary_candidates": 913,
+    "broad_universe": {
+      "sources": 325,
+      "candidates": 1070,
+      "frozen_inventory_source_rows": 336,
+      "scope": "Retained candidates in the frozen predictor-input inventory; zero-candidate source rows remain traceable"
+    },
+    "opportunity_classes": {
+      "no_observed_hit": 110,
+      "mixed_hit_status": 47,
+      "all_candidates_hit": 11
+    },
+    "all_X_identical_sources": 50,
+    "mixed_and_all_X_identical": 19,
+    "source_local_X_blocks": 592,
+    "actual_selection_positions_by_k": {
+      "1": 168,
+      "2": 336,
+      "3": 462,
+      "5": 630,
+      "10": 799
+    },
+    "sources_with_choice_remaining_by_k": {
+      "1": 168,
+      "2": 126,
+      "3": 95,
+      "5": 57,
+      "10": 11
+    },
+    "changed_second_choices": 9,
+    "target_plane_cells": 40401,
+    "target_path_points": 86
+  },
+  "scope": {
+    "fit_calls": 0,
+    "prediction_calls": 0,
+    "ranking_changes": 0,
+    "bootstrap_recomputation": false,
+    "policy_recomputation": false,
+    "threshold_change": false,
+    "source_data_rewritten": false,
+    "retrospective_exploratory": true,
+    "prospective_discovery": false,
+    "decision_scores_are_probabilities": false,
+    "frozen_property_models_changed": false,
+    "target_plane_recount": "e,f recount observed-label references for every joint target on CUDA; the declared screening target, models, rankings and policies are unchanged"
+  },
+  "inputs": {
+    "panel_spec": {
+      "path": "paper01/analysis/predictive_utility/MAIN_FIGURE_PANEL_SPEC.json",
+      "sha256": "d4051535b69284d53b7157f3f216c0e8e5fc76cf24ad022ac38885a02ad63343"
+    },
+    "sequential_spec": {
+      "path": "paper01/analysis/sequential_design/MAIN_FIGURE_PANEL_SPEC.json",
+      "sha256": "6d6f2afb29ae0a83f9f52a3a3cee87b753c6813b489787a04f392a666f7b2d7b"
+    },
+    "nested_receipt": {
+      "path": "paper01/analysis/source_aware_ranking/analysis_receipt.json",
+      "sha256": "a53db28462b59aff261922a31077f78a216f439184ec43364aa4443bf558c58e"
+    },
+    "source_inventory": {
+      "path": "paper01/analysis/predictive_utility/source_inventory.csv",
+      "sha256": "c37dd86c99c63239a841a4ab1f8dac53cded2f33ccb4928ce47c013c8d465df7"
+    },
+    "budget_utility": {
+      "path": "paper01/analysis/predictive_utility/budget_utility_summary.csv",
+      "sha256": "4b53fa9e373314f0dc30c0275871056400f77dc7b8d33946f1fdcf4e29d4c9d9"
+    },
+    "representation_resolution": {
+      "path": "paper01/analysis/source_aware_ranking/source_representation_resolution.csv",
+      "sha256": "622f333662d10de0c19f44d11d473dea36e12efe74fc9a1f53e86d24687b3d22"
+    },
+    "representation_oracle": {
+      "path": "paper01/analysis/source_aware_ranking/representation_oracle_by_source.csv",
+      "sha256": "154e08c80702f37834d7a7887c78b5d4ef50d191fd9f6a8a61936e0bd2464c95"
+    },
+    "representation_blocks": {
+      "path": "paper01/analysis/source_aware_ranking/representation_blocks_label_informed.csv",
+      "sha256": "45fe62dabf37a07f5ebfc39a8da16503cea4003415e411334894e7882bdf1b9a"
+    },
+    "nested_top1": {
+      "path": "paper01/analysis/source_aware_ranking/top1_utility_summary.csv",
+      "sha256": "4878e1984a33950ba652fcc30adab11a5c478f156989435c981920c70c6a1897"
+    },
+    "exact_tie": {
+      "path": "paper01/analysis/source_aware_ranking/exact_tie_utility_summary.csv",
+      "sha256": "5e2d9280083c7d69cf214f913544eb9c13bd63082adbb489ab882164d28b3188"
+    },
+    "sequential_gains": {
+      "path": "paper01/analysis/sequential_design/paired_policy_gains.csv",
+      "sha256": "fe8dcde2f4f8424ce26902c3ede754c3891b297fae8bed72ba58fb2430a59eba"
+    },
+    "sequential_outcomes": {
+      "path": "paper01/analysis/sequential_design/budget_outcome_summary.csv",
+      "sha256": "cdc0353e09c160ddaf9fc8f04c1e92acdadead71addbede4cfeed00a2f962707"
+    },
+    "changed_choices": {
+      "path": "paper01/analysis/sequential_design/all_changed_second_choices.csv",
+      "sha256": "bbddf46a5b2054bd1543b5e91d9d4588c65f853fa8ab0a5cb7bfe6b651cca0d3"
+    },
+    "decisions": {
+      "path": "paper01/source_data/TITMC_PAPER01_source_heldout_decisions.csv",
+      "sha256": "7e459bc52be202eea383ad13d24cbb1ca0f13cbf896ef8d1472bbe4314292091"
+    }
+  }
+}

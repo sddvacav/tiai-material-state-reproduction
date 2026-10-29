@@ -1,0 +1,892 @@
+{
+  "schema": "tiai.reproduction.files.v1",
+  "description": "Repository files with their size and SHA-256 and the runtime path at which the analysis code reads them. Gzip files are stored without the file name in their header and NPZ archives with Chinese array names; transform records the original bytes that the restore script writes back.",
+  "files": [
+    {
+      "repository_path": "CITATION.cff",
+      "runtime_path": "CITATION.cff",
+      "bytes": 825,
+      "sha256": "fc801bd3960f8c07ecdb281cb6cf65824f295779a3fcef3cbb82d8b992e8c1d2",
+      "runtime_sha256": "fc801bd3960f8c07ecdb281cb6cf65824f295779a3fcef3cbb82d8b992e8c1d2"
+    },
+    {
+      "repository_path": "LICENSE",
+      "runtime_path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "693d32a7ba49d2021f9c9dae039a7c988baa4dc27f3e7b49a5e41cea31cdd04d",
+      "runtime_sha256": "693d32a7ba49d2021f9c9dae039a7c988baa4dc27f3e7b49a5e41cea31cdd04d"
+    },
+    {
+      "repository_path": "README.md",
+      "runtime_path": "README.md",
+      "bytes": 5073,
+      "sha256": "b1d1eac248a4c5e4ba6c44065fa99f7076ca826e2a54d4df160907062893d201",
+      "runtime_sha256": "b1d1eac248a4c5e4ba6c44065fa99f7076ca826e2a54d4df160907062893d201"
+    },
+    {
+      "repository_path": "代码/GPU设备检查.py",
+      "runtime_path": "tools/CODE_TITMC_FIG03_evidence_maturity.py",
+      "bytes": 824,
+      "sha256": "8c30dca6e3a700726d3b0432f8c46d202bb5cf8f1ea2db826f731cb39d3885dc",
+      "runtime_sha256": "8c30dca6e3a700726d3b0432f8c46d202bb5cf8f1ea2db826f731cb39d3885dc"
+    },
+    {
+      "repository_path": "代码/五目标模型指标与查询资格.py",
+      "runtime_path": "tools/render_five_target_model_authority_atlas.py",
+      "bytes": 11272,
+      "sha256": "56ba9d67815b6843791ce63d004a7ed742db2229c98ce3c51cacdada6fdc1ccd",
+      "runtime_sha256": "56ba9d67815b6843791ce63d004a7ed742db2229c98ce3c51cacdada6fdc1ccd"
+    },
+    {
+      "repository_path": "代码/关联统计函数.py",
+      "runtime_path": "tools/build_association_cells.py",
+      "bytes": 9203,
+      "sha256": "725adba1a6c3ed39ecef8098f267aa72ec7e9d41600adb3ce6bfe74c1fa21c92",
+      "runtime_sha256": "725adba1a6c3ed39ecef8098f267aa72ec7e9d41600adb3ce6bfe74c1fa21c92"
+    },
+    {
+      "repository_path": "代码/图4强塑关系函数.py",
+      "runtime_path": "tools/CODE_TITMC_FIG08_strength_ductility.py",
+      "bytes": 6284,
+      "sha256": "f15996169ac782943c490b8601781be21beab2059dcf8ce5697d72f437e1b3d5",
+      "runtime_sha256": "f15996169ac782943c490b8601781be21beab2059dcf8ce5697d72f437e1b3d5"
+    },
+    {
+      "repository_path": "代码/图6同记录坐标函数.py",
+      "runtime_path": "tools/CODE_TITMC_FIG16_microstructure.py",
+      "bytes": 3319,
+      "sha256": "a86533e664f215a5b7a09932f3cc3738527ea7ae089173dfb0c2adb4c8d3a0b0",
+      "runtime_sha256": "a86533e664f215a5b7a09932f3cc3738527ea7ae089173dfb0c2adb4c8d3a0b0"
+    },
+    {
+      "repository_path": "代码/图7时间窗统计函数.py",
+      "runtime_path": "tools/CODE_TITMC_FIG04_temporal_frontier.py",
+      "bytes": 5748,
+      "sha256": "5263ee9ede3947a757d89a3bffb2ac79131ec3970d843547f0d8a9856e37c071",
+      "runtime_sha256": "5263ee9ede3947a757d89a3bffb2ac79131ec3970d843547f0d8a9856e37c071"
+    },
+    {
+      "repository_path": "代码/图8前沿分析函数.py",
+      "runtime_path": "tools/CODE_TITMC_FIG07_pareto_audit.py",
+      "bytes": 10992,
+      "sha256": "f956da2eab20150776b00891a89d4c29c1e108a222bfd59e17627f14e70f477d",
+      "runtime_sha256": "f956da2eab20150776b00891a89d4c29c1e108a222bfd59e17627f14e70f477d"
+    },
+    {
+      "repository_path": "代码/数值复现入口.py",
+      "runtime_path": "tools/reproduce_analysis.py",
+      "bytes": 33150,
+      "sha256": "372a58ad07638d6e6dcd5f662f201b6fab93e48ad50440f7051641c348185e1e",
+      "runtime_sha256": "372a58ad07638d6e6dcd5f662f201b6fab93e48ad50440f7051641c348185e1e"
+    },
+    {
+      "repository_path": "代码/文件完整性核对.py",
+      "runtime_path": "tools/validate_release.py",
+      "bytes": 6795,
+      "sha256": "3e0fd695cc15236ffb3ef3f97ad96f750e7d54fd8a503f83a33294e6bd24878e",
+      "runtime_sha256": "3e0fd695cc15236ffb3ef3f97ad96f750e7d54fd8a503f83a33294e6bd24878e"
+    },
+    {
+      "repository_path": "代码/文献抽取评分协议.py",
+      "runtime_path": "tools/extraction_benchmark.py",
+      "bytes": 70960,
+      "sha256": "e0c1bd79b25baa80918b3f5da7a6e1aec0af30e2f4882d28371d2fc55e16c850",
+      "runtime_sha256": "e0c1bd79b25baa80918b3f5da7a6e1aec0af30e2f4882d28371d2fc55e16c850"
+    },
+    {
+      "repository_path": "代码/材料剂量地图数值函数.py",
+      "runtime_path": "tools/reproduce_addition_maps.py",
+      "bytes": 18043,
+      "sha256": "da28125140d82cfa372f6810267ee19a18c3079835a67704de8ca1ba9bc12ae8",
+      "runtime_sha256": "da28125140d82cfa372f6810267ee19a18c3079835a67704de8ca1ba9bc12ae8"
+    },
+    {
+      "repository_path": "代码/材料剂量运行入口.py",
+      "runtime_path": "tools/material_dose.py",
+      "bytes": 9656,
+      "sha256": "3147e648b87c6eb1f1dd8e5ae4a9e3ae9f75f92c45dcd15ae3f4225753c94580",
+      "runtime_sha256": "3147e648b87c6eb1f1dd8e5ae4a9e3ae9f75f92c45dcd15ae3f4225753c94580"
+    },
+    {
+      "repository_path": "代码/目标阈值平面复算.py",
+      "runtime_path": "tools/selection_target_plane.py",
+      "bytes": 20314,
+      "sha256": "d9064ab6b47ecc3b700457f1dc2914438a56751b4121c8e6b25b465557b4beea",
+      "runtime_sha256": "d9064ab6b47ecc3b700457f1dc2914438a56751b4121c8e6b25b465557b4beea"
+    },
+    {
+      "repository_path": "代码/选择分析函数.py",
+      "runtime_path": "tools/selection_analysis.py",
+      "bytes": 20931,
+      "sha256": "c99eb20d445d8a3acd4ec4389056d948ff45026b778e1ee4e75c5c523cc2d808",
+      "runtime_sha256": "c99eb20d445d8a3acd4ec4389056d948ff45026b778e1ee4e75c5c523cc2d808"
+    },
+    {
+      "repository_path": "数据/五性能模型保存点预测.csv",
+      "runtime_path": "data/passed_model_point_predictions.csv",
+      "bytes": 1321304,
+      "sha256": "2e6c6a42f9f96ff49ff0a55c7b19e182dcbdc8a9594787d6ef4e389f086c124b",
+      "runtime_sha256": "2e6c6a42f9f96ff49ff0a55c7b19e182dcbdc8a9594787d6ef4e389f086c124b"
+    },
+    {
+      "repository_path": "数据/五性能模型评估登记.csv",
+      "runtime_path": "data/model_oof_authority_registry.csv",
+      "bytes": 2727,
+      "sha256": "a4ad5e40c6f06ed7438b8d156cd40f47346fd1498ab42502cb7c81708816bff8",
+      "runtime_sha256": "a4ad5e40c6f06ed7438b8d156cd40f47346fd1498ab42502cb7c81708816bff8"
+    },
+    {
+      "repository_path": "数据/五目标查询来源资格.json",
+      "runtime_path": "data/saved_query_source_qualification.json",
+      "bytes": 38054,
+      "sha256": "b9ecd0fd427c3bee4fe91965601b40877eb2c8d695998c64f8d681cfd171a143",
+      "runtime_sha256": "b9ecd0fd427c3bee4fe91965601b40877eb2c8d695998c64f8d681cfd171a143"
+    },
+    {
+      "repository_path": "数据/元素剂量对比.csv",
+      "runtime_path": "data/addition_maps_contrast.csv",
+      "bytes": 1513,
+      "sha256": "d4af94350fa0d117e449a905ed376198fc8f20546622d165d6ff0ddc8de6d7f0",
+      "runtime_sha256": "d4af94350fa0d117e449a905ed376198fc8f20546622d165d6ff0ddc8de6d7f0"
+    },
+    {
+      "repository_path": "数据/元素剂量方向.csv",
+      "runtime_path": "data/addition_maps_compass.csv",
+      "bytes": 1721,
+      "sha256": "973fa24e7b2447e6a2e5287177aa02efaf8f122ae4dd6e918e9b408d5ff357c9",
+      "runtime_sha256": "973fa24e7b2447e6a2e5287177aa02efaf8f122ae4dd6e918e9b408d5ff357c9"
+    },
+    {
+      "repository_path": "数据/元素剂量设计汇总.csv",
+      "runtime_path": "data/addition_maps_design.csv",
+      "bytes": 1629,
+      "sha256": "efbb88c00b7802ba8bb565fde7a2c5d758f0889ac08741fe1b25eeec0cd90917",
+      "runtime_sha256": "efbb88c00b7802ba8bb565fde7a2c5d758f0889ac08741fe1b25eeec0cd90917"
+    },
+    {
+      "repository_path": "数据/全系列指纹.csv",
+      "runtime_path": "data/addition_maps_fingerprint_all_series.csv",
+      "bytes": 8108,
+      "sha256": "62d3759b86c2b247d8ad6a725e6fb8c243545a08a6bf472cc73002f2776ea2a4",
+      "runtime_sha256": "62d3759b86c2b247d8ad6a725e6fb8c243545a08a6bf472cc73002f2776ea2a4"
+    },
+    {
+      "repository_path": "数据/原文人工核对剂量点.csv",
+      "runtime_path": "data/primary_reviewed_series_points.csv",
+      "bytes": 57395,
+      "sha256": "d6f3ab7b73851a8b84bf9bdcc31b49a649e681040cd12522949231d47f84622f",
+      "runtime_sha256": "d6f3ab7b73851a8b84bf9bdcc31b49a649e681040cd12522949231d47f84622f"
+    },
+    {
+      "repository_path": "数据/原文剂量派生对比.csv",
+      "runtime_path": "data/primary_reviewed_all_pair_contrasts.csv",
+      "bytes": 161579,
+      "sha256": "e700d134ea490f82d9ecc51c040850e3b352041098a63476dd6d5638f5df5733",
+      "runtime_sha256": "e700d134ea490f82d9ecc51c040850e3b352041098a63476dd6d5638f5df5733"
+    },
+    {
+      "repository_path": "数据/发布文件清单.json",
+      "runtime_path": "EXPORT_MANIFEST.json",
+      "bytes": 21001,
+      "sha256": "fddcf0af91f0c3113e4934446a38cb357d4acdb261fdbecdb0a4165a902bb8c8",
+      "runtime_sha256": "fddcf0af91f0c3113e4934446a38cb357d4acdb261fdbecdb0a4165a902bb8c8"
+    },
+    {
+      "repository_path": "数据/可比配对系列.csv",
+      "runtime_path": "data/addition_maps_designed_series.csv",
+      "bytes": 31115,
+      "sha256": "621a50de908227c0f141286621d65876e006ee9a8fc7825b23e0af1fb1fd63cc",
+      "runtime_sha256": "621a50de908227c0f141286621d65876e006ee9a8fc7825b23e0af1fb1fd63cc"
+    },
+    {
+      "repository_path": "数据/图10完整目标阈值平面.csv",
+      "runtime_path": "data/selection_target_plane.csv",
+      "bytes": 3638074,
+      "sha256": "5a93f6ee8a917ca77da959ab41a8e61bcb49c04b2b23742d9d19a3825aae1876",
+      "runtime_sha256": "5a93f6ee8a917ca77da959ab41a8e61bcb49c04b2b23742d9d19a3825aae1876"
+    },
+    {
+      "repository_path": "数据/图10实际统计量.csv",
+      "runtime_path": "data/selection_plotted_values.csv",
+      "bytes": 81275,
+      "sha256": "3ed1a449fcb27444966880585fb4d8194a5ece5974d4b110ff2c732c5f0dde4a",
+      "runtime_sha256": "3ed1a449fcb27444966880585fb4d8194a5ece5974d4b110ff2c732c5f0dde4a"
+    },
+    {
+      "repository_path": "数据/图10目标平面定义.json",
+      "runtime_path": "data/selection_target_plane_metadata.json",
+      "bytes": 6160,
+      "sha256": "3e7cae86bacba5a2aac440bfbdc00dafec34648cacaf9585547021d21e9a853f",
+      "runtime_sha256": "3e7cae86bacba5a2aac440bfbdc00dafec34648cacaf9585547021d21e9a853f"
+    },
+    {
+      "repository_path": "数据/图4主协议区间.json",
+      "runtime_path": "data/TITMC_FIG08_strength_ductility_primary_intervals.json",
+      "bytes": 2772,
+      "sha256": "5a5dbd4eafc196559459a6e6f043bff71c6244e36370c7989789ead9328bb5d0",
+      "runtime_sha256": "5a5dbd4eafc196559459a6e6f043bff71c6244e36370c7989789ead9328bb5d0"
+    },
+    {
+      "repository_path": "数据/图4强塑配对状态.csv",
+      "runtime_path": "data/TITMC_FIG08_strength_ductility_states.csv",
+      "bytes": 639396,
+      "sha256": "4717ad0d09e4bb6b8c0c18ef9fc2750af5c972ad039f4349b965c747b4498648",
+      "runtime_sha256": "4717ad0d09e4bb6b8c0c18ef9fc2750af5c972ad039f4349b965c747b4498648"
+    },
+    {
+      "repository_path": "数据/图4来源方差分解.json",
+      "runtime_path": "data/TITMC_PAPER01_strength_elongation_variance_decomposition.json",
+      "bytes": 1140,
+      "sha256": "ccdde00238ea3742f8069021f8f09b6224b51d8ed83cf78a40308218dfa5977a",
+      "runtime_sha256": "ccdde00238ea3742f8069021f8f09b6224b51d8ed83cf78a40308218dfa5977a"
+    },
+    {
+      "repository_path": "数据/图5关联单元统计.csv",
+      "runtime_path": "data/TITMC_REF11_SourceData.csv",
+      "bytes": 730797,
+      "sha256": "50defe03fca120369e9ed967fbbe02235bc9119e0654e1d0ffae83f0f3f893ed",
+      "runtime_sha256": "50defe03fca120369e9ed967fbbe02235bc9119e0654e1d0ffae83f0f3f893ed"
+    },
+    {
+      "repository_path": "数据/图5抽样协议.json",
+      "runtime_path": "data/TITMC_REF11_publication_parameters.json",
+      "bytes": 28103,
+      "sha256": "0cb263d2a70f78a3b03971412e2a8ae713f9552eda477cf8d59dde3a8c97a97c",
+      "runtime_sha256": "0cb263d2a70f78a3b03971412e2a8ae713f9552eda477cf8d59dde3a8c97a97c"
+    },
+    {
+      "repository_path": "数据/图5来源准入单元.csv",
+      "runtime_path": "data/TITMC_REF11_admitted_units.csv",
+      "bytes": 30634970,
+      "sha256": "86fd073c8d27c7bac81995b30e09d3f1a3e0f13b48422b86cb86304d2ce68908",
+      "runtime_sha256": "86fd073c8d27c7bac81995b30e09d3f1a3e0f13b48422b86cb86304d2ce68908"
+    },
+    {
+      "repository_path": "数据/图6总体定义.json",
+      "runtime_path": "data/TITMC_FIG16_microstructure_claim_receipt.json",
+      "bytes": 2802,
+      "sha256": "464a578dc08ee2ef551b7e936982d51df9b1a8105e6cdb460d4f23f42a3525f0",
+      "runtime_sha256": "464a578dc08ee2ef551b7e936982d51df9b1a8105e6cdb460d4f23f42a3525f0"
+    },
+    {
+      "repository_path": "数据/图6组织性能坐标.csv",
+      "runtime_path": "data/TITMC_FIG16_microstructure_source_data.csv",
+      "bytes": 335579,
+      "sha256": "7f572c14fa790998e8c6f034eecbcfedee599bb45952c8a8f724d36a75a52887",
+      "runtime_sha256": "7f572c14fa790998e8c6f034eecbcfedee599bb45952c8a8f724d36a75a52887"
+    },
+    {
+      "repository_path": "数据/图7时间窗准入观测.csv",
+      "runtime_path": "data/TITMC_FIG04_temporal_frontier_states.csv",
+      "bytes": 814125,
+      "sha256": "80143f6e63a9f1846b4859c3cb5882a022b313645f9011708a85a9277187fa3b",
+      "runtime_sha256": "80143f6e63a9f1846b4859c3cb5882a022b313645f9011708a85a9277187fa3b"
+    },
+    {
+      "repository_path": "数据/图7时间窗统计.csv",
+      "runtime_path": "data/TITMC_FIG04_temporal_frontier_source_data.csv",
+      "bytes": 120039,
+      "sha256": "4fcf9ecbb324f4228fbde14b9f7b8636ff63297da06f5b5ab6d283476eed1e3e",
+      "runtime_sha256": "4fcf9ecbb324f4228fbde14b9f7b8636ff63297da06f5b5ab6d283476eed1e3e"
+    },
+    {
+      "repository_path": "数据/图8分析矩阵.csv",
+      "runtime_path": "data/TITMC_FIG07_pareto_audit_analysis_matrix.csv",
+      "bytes": 338117,
+      "sha256": "11e890cffdd9cd65c9189a131b54a655829ac03f65402f0f9eb6728835a0e72d",
+      "runtime_sha256": "11e890cffdd9cd65c9189a131b54a655829ac03f65402f0f9eb6728835a0e72d"
+    },
+    {
+      "repository_path": "数据/图8前沿统计.csv",
+      "runtime_path": "data/TITMC_FIG07_pareto_audit_source_data.csv",
+      "bytes": 578809,
+      "sha256": "96e8f49ffce91ff9b80368ca5ee52e5141c6bdb1c2ae8258072fc007b98e71b2",
+      "runtime_sha256": "96e8f49ffce91ff9b80368ca5ee52e5141c6bdb1c2ae8258072fc007b98e71b2"
+    },
+    {
+      "repository_path": "数据/图8同态配对状态.csv",
+      "runtime_path": "data/TITMC_FIG07_pareto_audit_states.csv",
+      "bytes": 307247,
+      "sha256": "01d7e74e95771cfca1978bfd9f13905b55dc8d1a2d6e6f4dbd14db4c42d85009",
+      "runtime_sha256": "01d7e74e95771cfca1978bfd9f13905b55dc8d1a2d6e6f4dbd14db4c42d85009"
+    },
+    {
+      "repository_path": "数据/图8总体与协议.json",
+      "runtime_path": "data/TITMC_FIG07_pareto_audit_claim_receipt.json",
+      "bytes": 929,
+      "sha256": "e2981162fc7b2940f205ee230a7e95d66ceb53ab0aedcd97c4fad63950ee84d7",
+      "runtime_sha256": "e2981162fc7b2940f205ee230a7e95d66ceb53ab0aedcd97c4fad63950ee84d7"
+    },
+    {
+      "repository_path": "数据/图8来源支持计数.csv",
+      "runtime_path": "data/TITMC_FIG07_pareto_audit_paperfamily_support.csv",
+      "bytes": 11915,
+      "sha256": "08a78f29c3f7c770add5cad3da1b43ed24856ceac7abe84abfd90488f2d39419",
+      "runtime_sha256": "08a78f29c3f7c770add5cad3da1b43ed24856ceac7abe84abfd90488f2d39419"
+    },
+    {
+      "repository_path": "数据/增强体区间.csv",
+      "runtime_path": "data/addition_maps_reinforcement_bands.csv",
+      "bytes": 276,
+      "sha256": "931a02d82573c9c08c9ba3d1d68cf7fef62bd1743e36adde17304fd5c612b2cb",
+      "runtime_sha256": "931a02d82573c9c08c9ba3d1d68cf7fef62bd1743e36adde17304fd5c612b2cb"
+    },
+    {
+      "repository_path": "数据/增强体含量分箱.csv",
+      "runtime_path": "data/addition_maps_content_bins.csv",
+      "bytes": 763,
+      "sha256": "dccff7a09e67aa8279fe5239b061b1769821bfe609904cf6ff3ed11a4ee3d7a8",
+      "runtime_sha256": "dccff7a09e67aa8279fe5239b061b1769821bfe609904cf6ff3ed11a4ee3d7a8"
+    },
+    {
+      "repository_path": "数据/增强体含量坐标.csv",
+      "runtime_path": "data/addition_maps_content_points.csv",
+      "bytes": 24177,
+      "sha256": "fd0a70045ee77c0635cc52c4e026be08b9fbfe6fa935ca9a208e47d8677e79e5",
+      "runtime_sha256": "fd0a70045ee77c0635cc52c4e026be08b9fbfe6fa935ca9a208e47d8677e79e5"
+    },
+    {
+      "repository_path": "数据/增强体点云.csv",
+      "runtime_path": "data/addition_maps_reinforcement_cloud.csv",
+      "bytes": 8291,
+      "sha256": "3d8b73c93e744baeca9d65e636954e05f620fc884693ec25d865d3b80831fb4a",
+      "runtime_sha256": "3d8b73c93e744baeca9d65e636954e05f620fc884693ec25d865d3b80831fb4a"
+    },
+    {
+      "repository_path": "数据/复现输入索引.json",
+      "runtime_path": "DATA_INPUTS.json",
+      "bytes": 16855,
+      "sha256": "aea7ca90100cb084014742cddae093ac58309fed856b78e0a751be939ed5b172",
+      "runtime_sha256": "aea7ca90100cb084014742cddae093ac58309fed856b78e0a751be939ed5b172"
+    },
+    {
+      "repository_path": "数据/序贯选择全部改变的第二选择.csv",
+      "runtime_path": "paper01/analysis/sequential_design/all_changed_second_choices.csv",
+      "bytes": 4374,
+      "sha256": "bbddf46a5b2054bd1543b5e91d9d4588c65f853fa8ab0a5cb7bfe6b651cca0d3",
+      "runtime_sha256": "bbddf46a5b2054bd1543b5e91d9d4588c65f853fa8ab0a5cb7bfe6b651cca0d3"
+    },
+    {
+      "repository_path": "数据/序贯选择外层训练核尺度.csv",
+      "runtime_path": "paper01/analysis/sequential_design/outer_training_kernel_scales.csv",
+      "bytes": 741,
+      "sha256": "b8352a57ae99289a65d0fd4fbffba5a8f8d5a9dc7e73465b40cf6bbb94c0d426",
+      "runtime_sha256": "b8352a57ae99289a65d0fd4fbffba5a8f8d5a9dc7e73465b40cf6bbb94c0d426"
+    },
+    {
+      "repository_path": "数据/序贯选择来源预算结果.csv",
+      "runtime_path": "paper01/analysis/sequential_design/source_budget_outcomes.csv",
+      "bytes": 750466,
+      "sha256": "d9c539a996300d1b7e1f072fcea2530fdf01f26c2fd19f914f93498c429b7b51",
+      "runtime_sha256": "d9c539a996300d1b7e1f072fcea2530fdf01f26c2fd19f914f93498c429b7b51"
+    },
+    {
+      "repository_path": "数据/序贯选择标签访问记录.csv",
+      "runtime_path": "paper01/analysis/sequential_design/label_access_log.csv",
+      "bytes": 442832,
+      "sha256": "56f4f1c1a51b3a2d2325161e965e6e30465289b4cd636aa4b100f7188bd2b3b2",
+      "runtime_sha256": "56f4f1c1a51b3a2d2325161e965e6e30465289b4cd636aa4b100f7188bd2b3b2"
+    },
+    {
+      "repository_path": "数据/序贯选择配对策略增益.csv",
+      "runtime_path": "paper01/analysis/sequential_design/paired_policy_gains.csv",
+      "bytes": 10872,
+      "sha256": "fe8dcde2f4f8424ce26902c3ede754c3891b297fae8bed72ba58fb2430a59eba",
+      "runtime_sha256": "fe8dcde2f4f8424ce26902c3ede754c3891b297fae8bed72ba58fb2430a59eba"
+    },
+    {
+      "repository_path": "数据/序贯选择预算结果汇总.csv",
+      "runtime_path": "paper01/analysis/sequential_design/budget_outcome_summary.csv",
+      "bytes": 13182,
+      "sha256": "cdc0353e09c160ddaf9fc8f04c1e92acdadead71addbede4cfeed00a2f962707",
+      "runtime_sha256": "cdc0353e09c160ddaf9fc8f04c1e92acdadead71addbede4cfeed00a2f962707"
+    },
+    {
+      "repository_path": "数据/数值复现结果.json",
+      "runtime_path": "NUMERICAL_REPLAY_RESULTS.json",
+      "bytes": 26878,
+      "sha256": "5c3ff0582cefb486245ed1199a426de9d866c0e13231696a5ee4db6198238953",
+      "runtime_sha256": "5c3ff0582cefb486245ed1199a426de9d866c0e13231696a5ee4db6198238953"
+    },
+    {
+      "repository_path": "数据/材料剂量分析参数.json",
+      "runtime_path": "data/material_dose_parameters.json",
+      "bytes": 270644,
+      "sha256": "9487352d5c29972a15dc057f860166aa5dbd1002b5b55b41303b3ddcbed6f4f3",
+      "runtime_sha256": "9487352d5c29972a15dc057f860166aa5dbd1002b5b55b41303b3ddcbed6f4f3"
+    },
+    {
+      "repository_path": "数据/材料剂量强度延伸率配对跨度.csv.gz",
+      "runtime_path": "data/all_paired_strength_elongation_spans.csv.gz",
+      "bytes": 188280,
+      "sha256": "986f4103fd6d2e2ca2820cb8fddb31a67d61cdad730db3b3a4e04c92f07ca7be",
+      "runtime_sha256": "624458d57955469b2350063dcb47e33422afd75092097d7e0e96c456ab5bffa5",
+      "transform": {
+        "kind": "gzip_filename_header_removed_without_recompression",
+        "original_header": "H4sICOI94moC/2FsbF9wYWlyZWRfc3RyZW5ndGhfZWxvbmdhdGlvbl9zcGFucy5jc3YA"
+      }
+    },
+    {
+      "repository_path": "数据/材料剂量效应汇总.csv",
+      "runtime_path": "data/material_dose_summary_effects.csv",
+      "bytes": 326256,
+      "sha256": "e40d8bd52c1801fb922dc0587a327c9e7f98a6ac0dffc3127ffae4650ad5fbd5",
+      "runtime_sha256": "e40d8bd52c1801fb922dc0587a327c9e7f98a6ac0dffc3127ffae4650ad5fbd5"
+    },
+    {
+      "repository_path": "数据/材料剂量来源效应.csv.gz",
+      "runtime_path": "data/material_dose_source_effects.csv.gz",
+      "bytes": 169402,
+      "sha256": "b8a2a0f935e8c96528aef85b2ea2f617da4357b05f015f0c5bfeed5864dff88c",
+      "runtime_sha256": "7e90db426b21b5723d301ebfc01db5d1105b57de241510768395c529bfcbbdf7",
+      "transform": {
+        "kind": "gzip_filename_header_removed_without_recompression",
+        "original_header": "H4sICPk94moC/3NvdXJjZV9lZmZlY3RzLmNzdgA="
+      }
+    },
+    {
+      "repository_path": "数据/材料剂量来源条件系列点.csv.gz",
+      "runtime_path": "data/all_source_context_series_points.csv.gz",
+      "bytes": 455917,
+      "sha256": "0cf657b9f4c7c9eaf01d073d89836cf856532f2b214ed9ca01ecba9a07c4823d",
+      "runtime_sha256": "2f793cef671c30934d2a2782bd8b69926248df5dd3e2478a5322e05ee8ad66b5",
+      "transform": {
+        "kind": "gzip_filename_header_removed_without_recompression",
+        "original_header": "H4sICOI94moC/2FsbF9zb3VyY2VfY29udGV4dF9zZXJpZXNfcG9pbnRzLmNzdgA="
+      }
+    },
+    {
+      "repository_path": "数据/材料剂量来源条件跨度.csv.gz",
+      "runtime_path": "data/all_source_context_spans.csv.gz",
+      "bytes": 514707,
+      "sha256": "78fedcfa8d1177bb1185555373c38ac805096b5d859097d1bfd52b3b337a1b01",
+      "runtime_sha256": "4b53c14c98b639c6d8971d85947c61bb47e101b6b472457705704757877c9b8c",
+      "transform": {
+        "kind": "gzip_filename_header_removed_without_recompression",
+        "original_header": "H4sICOI94moC/2FsbF9zb3VyY2VfY29udGV4dF9zcGFucy5jc3YA"
+      }
+    },
+    {
+      "repository_path": "数据/材料剂量系列.csv.gz",
+      "runtime_path": "data/material_dose_series.csv.gz",
+      "bytes": 738839,
+      "sha256": "f19c83aefe472108045d5038a3d8937cc65e739fddfd0dd22c79e0f8cfee6717",
+      "runtime_sha256": "7b624549423325c3d32c85fe3da6c151ac612836d8f0a6f5806b0a131b100195",
+      "transform": {
+        "kind": "gzip_filename_header_removed_without_recompression",
+        "original_header": "H4sICOM94moC/3Nlcmllcy5jc3YA"
+      }
+    },
+    {
+      "repository_path": "数据/材料剂量系列点.csv.gz",
+      "runtime_path": "data/material_dose_series_points.csv.gz",
+      "bytes": 1732118,
+      "sha256": "35f726ef93bd04d3a5651b79978b5ef912cf0347817b00f8ba55f74ef301ddd2",
+      "runtime_sha256": "1603535998d509fd6fc4a5cd9dab403ba815f119ae895ae38aff327e628ecad6",
+      "transform": {
+        "kind": "gzip_filename_header_removed_without_recompression",
+        "original_header": "H4sICOQ94moC/3Nlcmllc19wb2ludHMuY3N2AA=="
+      }
+    },
+    {
+      "repository_path": "数据/来源排序候选输入.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/candidate_inputs.csv",
+      "bytes": 401363,
+      "sha256": "d2763feef8533ad5bf2ebd69760409f5551e56dcd0a6f6a0366e24b815e7258e",
+      "runtime_sha256": "d2763feef8533ad5bf2ebd69760409f5551e56dcd0a6f6a0366e24b815e7258e"
+    },
+    {
+      "repository_path": "数据/来源排序内层交叉验证记录.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/inner_cv_trace.csv",
+      "bytes": 14984,
+      "sha256": "84057aff07f468132b4181adf354f73950aa3ec90f039854c40aee617d68950d",
+      "runtime_sha256": "84057aff07f468132b4181adf354f73950aa3ec90f039854c40aee617d68950d"
+    },
+    {
+      "repository_path": "数据/来源排序含标签信息的表示分块.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/representation_blocks_label_informed.csv",
+      "bytes": 77893,
+      "sha256": "45fe62dabf37a07f5ebfc39a8da16503cea4003415e411334894e7882bdf1b9a",
+      "runtime_sha256": "45fe62dabf37a07f5ebfc39a8da16503cea4003415e411334894e7882bdf1b9a"
+    },
+    {
+      "repository_path": "数据/来源排序岭参数选择.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/alpha_selection.csv",
+      "bytes": 3106,
+      "sha256": "be3b43e467c35cb4d23f83d763b9d0095224801ec13b1caa83a4022f084e0d3d",
+      "runtime_sha256": "be3b43e467c35cb4d23f83d763b9d0095224801ec13b1caa83a4022f084e0d3d"
+    },
+    {
+      "repository_path": "数据/来源排序按来源的表示标签上界.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/representation_oracle_by_source.csv",
+      "bytes": 7342,
+      "sha256": "154e08c80702f37834d7a7887c78b5d4ef50d191fd9f6a8a61936e0bd2464c95",
+      "runtime_sha256": "154e08c80702f37834d7a7887c78b5d4ef50d191fd9f6a8a61936e0bd2464c95"
+    },
+    {
+      "repository_path": "数据/来源排序来源表示分辨率.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/source_representation_resolution.csv",
+      "bytes": 24000,
+      "sha256": "622f333662d10de0c19f44d11d473dea36e12efe74fc9a1f53e86d24687b3d22",
+      "runtime_sha256": "622f333662d10de0c19f44d11d473dea36e12efe74fc9a1f53e86d24687b3d22"
+    },
+    {
+      "repository_path": "数据/来源排序来源首选效用.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/source_top1_utility.csv",
+      "bytes": 74411,
+      "sha256": "b1ca37226d962c63ad8c5183ef3273177ee77a4a83cef058b14e587f09fe485e",
+      "runtime_sha256": "b1ca37226d962c63ad8c5183ef3273177ee77a4a83cef058b14e587f09fe485e"
+    },
+    {
+      "repository_path": "数据/来源排序留源评分.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/out_of_source_rankings.csv",
+      "bytes": 460330,
+      "sha256": "f67e96b7e37ec19cf2e332d1ce990b4923492aa6524e812c7b073a8835c9b2b6",
+      "runtime_sha256": "f67e96b7e37ec19cf2e332d1ce990b4923492aa6524e812c7b073a8835c9b2b6"
+    },
+    {
+      "repository_path": "数据/来源排序精确同分效用汇总.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/exact_tie_utility_summary.csv",
+      "bytes": 1485,
+      "sha256": "5e2d9280083c7d69cf214f913544eb9c13bd63082adbb489ab882164d28b3188",
+      "runtime_sha256": "5e2d9280083c7d69cf214f913544eb9c13bd63082adbb489ab882164d28b3188"
+    },
+    {
+      "repository_path": "数据/来源排序精确同分来源效用.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/exact_tie_source_utility.csv",
+      "bytes": 86262,
+      "sha256": "8bcf14b713ab6d85048dfeff91467ac88be08e8449c68951e1af2bda1230a17e",
+      "runtime_sha256": "8bcf14b713ab6d85048dfeff91467ac88be08e8449c68951e1af2bda1230a17e"
+    },
+    {
+      "repository_path": "数据/来源排序输入编码折0.npz",
+      "runtime_path": "paper01/analysis/source_aware_ranking/encoded_inputs_fold0.npz",
+      "bytes": 111000,
+      "sha256": "80f935a649716067373a470e47a7e1e3a1643dca8264a5d4f9164c9d86258e50",
+      "runtime_sha256": "4e81a1c6ada99967aafe0c9f5f4ec7c99edb6704d18a0d8b0dda0a55182eff40",
+      "transform": {
+        "kind": "native_npz_names_only",
+        "prefix": "",
+        "entries": [
+          {
+            "archive_name": "特征矩阵.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDBZUT0//////////8FABQAWC5ucHkBABAAMDUMAAAAAADo/wAAAAAAAA=="
+          },
+          {
+            "archive_name": "训练索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQA0d2vU//////////8RABQAdHJhaW5faW5kaWNlcy5ucHkBABAAkBwAAAAAAADaBQAAAAAAAA=="
+          },
+          {
+            "archive_name": "核对索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDLggJF//////////8QABQAdGVzdF9pbmRpY2VzLm5weQEAEAAoBwAAAAAAANEBAAAAAAAA"
+          },
+          {
+            "archive_name": "抗拉强度观察标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQAQlm7M//////////8WABQAb2JzZXJ2YXRpb25faWRfdXRzLm5weQEAEAAwhwMAAAAAAKJzAAAAAAAA"
+          },
+          {
+            "archive_name": "文献家族标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDB6umT//////////8TABQAcGFwZXJfZmFtaWx5X2lkLm5weQEAEAAolAIAAAAAAMsvAAAAAAAA"
+          },
+          {
+            "archive_name": "特征名称.npy",
+            "header": "UEsDBC0AAAAIAAAAIQAFcNQE//////////8RABQAZmVhdHVyZV9uYW1lcy5ucHkBABAAWDcAAAAAAABeAwAAAAAAAA=="
+          }
+        ],
+        "tail": "UEsBAi0DLQAAAAgAAAAhAMFlRPTo/wAAMDUMAAUAAAAAAAAAAAAAAIABAAAAAFgubnB5UEsBAi0DLQAAAAgAAAAhADR3a9TaBQAAkBwAABEAAAAAAAAAAAAAAIABHwABAHRyYWluX2luZGljZXMubnB5UEsBAi0DLQAAAAgAAAAhAMuCAkXRAQAAKAcAABAAAAAAAAAAAAAAAIABPAYBAHRlc3RfaW5kaWNlcy5ucHlQSwECLQMtAAAACAAAACEAEJZuzKJzAAAwhwMAFgAAAAAAAAAAAAAAgAFPCAEAb2JzZXJ2YXRpb25faWRfdXRzLm5weVBLAQItAy0AAAAIAAAAIQDB6umTyy8AACiUAgATAAAAAAAAAAAAAACAATl8AQBwYXBlcl9mYW1pbHlfaWQubnB5UEsBAi0DLQAAAAgAAAAhAAVw1AReAwAAWDcAABEAAAAAAAAAAAAAAIABSawBAGZlYXR1cmVfbmFtZXMubnB5UEsFBgAAAAAGAAYAdAEAAOqvAQAAAA=="
+      }
+    },
+    {
+      "repository_path": "数据/来源排序输入编码折1.npz",
+      "runtime_path": "paper01/analysis/source_aware_ranking/encoded_inputs_fold1.npz",
+      "bytes": 111453,
+      "sha256": "81360cbc3bc9a71cf420a65a0ace890fb45145040f9a7b422a661fdf3530716f",
+      "runtime_sha256": "80ddfe1bffd2d6c5099353666c4f9a2fe5ee14395e669d0c5fb68eb40cddbdaa",
+      "transform": {
+        "kind": "native_npz_names_only",
+        "prefix": "",
+        "entries": [
+          {
+            "archive_name": "特征矩阵.npy",
+            "header": "UEsDBC0AAAAIAAAAIQBqN15o//////////8FABQAWC5ucHkBABAAoHoMAAAAAACbAQEAAAAAAA=="
+          },
+          {
+            "archive_name": "训练索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQAdt/KP//////////8RABQAdHJhaW5faW5kaWNlcy5ucHkBABAAgBoAAAAAAACCBQAAAAAAAA=="
+          },
+          {
+            "archive_name": "核对索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQCsQ/Oq//////////8QABQAdGVzdF9pbmRpY2VzLm5weQEAEAA4CQAAAAAAAC8CAAAAAAAA"
+          },
+          {
+            "archive_name": "抗拉强度观察标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQAQlm7M//////////8WABQAb2JzZXJ2YXRpb25faWRfdXRzLm5weQEAEAAwhwMAAAAAAKJzAAAAAAAA"
+          },
+          {
+            "archive_name": "文献家族标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDB6umT//////////8TABQAcGFwZXJfZmFtaWx5X2lkLm5weQEAEAAolAIAAAAAAMsvAAAAAAAA"
+          },
+          {
+            "archive_name": "特征名称.npy",
+            "header": "UEsDBC0AAAAIAAAAIQCaITpN//////////8RABQAZmVhdHVyZV9uYW1lcy5ucHkBABAAkDgAAAAAAABqAwAAAAAAAA=="
+          }
+        ],
+        "tail": "UEsBAi0DLQAAAAgAAAAhAGo3XmibAQEAoHoMAAUAAAAAAAAAAAAAAIABAAAAAFgubnB5UEsBAi0DLQAAAAgAAAAhAB238o+CBQAAgBoAABEAAAAAAAAAAAAAAIAB0gEBAHRyYWluX2luZGljZXMubnB5UEsBAi0DLQAAAAgAAAAhAKxD86ovAgAAOAkAABAAAAAAAAAAAAAAAIABlwcBAHRlc3RfaW5kaWNlcy5ucHlQSwECLQMtAAAACAAAACEAEJZuzKJzAAAwhwMAFgAAAAAAAAAAAAAAgAEICgEAb2JzZXJ2YXRpb25faWRfdXRzLm5weVBLAQItAy0AAAAIAAAAIQDB6umTyy8AACiUAgATAAAAAAAAAAAAAACAAfJ9AQBwYXBlcl9mYW1pbHlfaWQubnB5UEsBAi0DLQAAAAgAAAAhAJohOk1qAwAAkDgAABEAAAAAAAAAAAAAAIABAq4BAGZlYXR1cmVfbmFtZXMubnB5UEsFBgAAAAAGAAYAdAEAAK+xAQAAAA=="
+      }
+    },
+    {
+      "repository_path": "数据/来源排序输入编码折2.npz",
+      "runtime_path": "paper01/analysis/source_aware_ranking/encoded_inputs_fold2.npz",
+      "bytes": 111187,
+      "sha256": "af4f92e1bc391c4eaf49dff31b0bfe8125f850551997f6069750eb1e10c6267a",
+      "runtime_sha256": "cbad97a00e689c456311940ecc81aecf96848235878106f5e71e69b905aa692c",
+      "transform": {
+        "kind": "native_npz_names_only",
+        "prefix": "",
+        "entries": [
+          {
+            "archive_name": "特征矩阵.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDgPXTF//////////8FABQAWC5ucHkBABAA6FcMAAAAAACiAAEAAAAAAA=="
+          },
+          {
+            "archive_name": "训练索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQCva42l//////////8RABQAdHJhaW5faW5kaWNlcy5ucHkBABAAABwAAAAAAADABQAAAAAAAA=="
+          },
+          {
+            "archive_name": "核对索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQCopjVe//////////8QABQAdGVzdF9pbmRpY2VzLm5weQEAEAC4BwAAAAAAAOkBAAAAAAAA"
+          },
+          {
+            "archive_name": "抗拉强度观察标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQAQlm7M//////////8WABQAb2JzZXJ2YXRpb25faWRfdXRzLm5weQEAEAAwhwMAAAAAAKJzAAAAAAAA"
+          },
+          {
+            "archive_name": "文献家族标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDB6umT//////////8TABQAcGFwZXJfZmFtaWx5X2lkLm5weQEAEAAolAIAAAAAAMsvAAAAAAAA"
+          },
+          {
+            "archive_name": "特征名称.npy",
+            "header": "UEsDBC0AAAAIAAAAIQCjlwun//////////8RABQAZmVhdHVyZV9uYW1lcy5ucHkBABAA9DcAAAAAAABhAwAAAAAAAA=="
+          }
+        ],
+        "tail": "UEsBAi0DLQAAAAgAAAAhAOA9dMWiAAEA6FcMAAUAAAAAAAAAAAAAAIABAAAAAFgubnB5UEsBAi0DLQAAAAgAAAAhAK9rjaXABQAAABwAABEAAAAAAAAAAAAAAIAB2QABAHRyYWluX2luZGljZXMubnB5UEsBAi0DLQAAAAgAAAAhAKimNV7pAQAAuAcAABAAAAAAAAAAAAAAAIAB3AYBAHRlc3RfaW5kaWNlcy5ucHlQSwECLQMtAAAACAAAACEAEJZuzKJzAAAwhwMAFgAAAAAAAAAAAAAAgAEHCQEAb2JzZXJ2YXRpb25faWRfdXRzLm5weVBLAQItAy0AAAAIAAAAIQDB6umTyy8AACiUAgATAAAAAAAAAAAAAACAAfF8AQBwYXBlcl9mYW1pbHlfaWQubnB5UEsBAi0DLQAAAAgAAAAhAKOXC6dhAwAA9DcAABEAAAAAAAAAAAAAAIABAa0BAGZlYXR1cmVfbmFtZXMubnB5UEsFBgAAAAAGAAYAdAEAAKWwAQAAAA=="
+      }
+    },
+    {
+      "repository_path": "数据/来源排序输入编码折3.npz",
+      "runtime_path": "paper01/analysis/source_aware_ranking/encoded_inputs_fold3.npz",
+      "bytes": 111382,
+      "sha256": "81730438876bcce7d702b5e3917227a25f2be5c986c141110f20d15952093504",
+      "runtime_sha256": "2f97f4cb0dca1f1eb9493ce07e0157d96dae6c45c770559f6fb36cfc0c29f35c",
+      "transform": {
+        "kind": "native_npz_names_only",
+        "prefix": "",
+        "entries": [
+          {
+            "archive_name": "特征矩阵.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDAmyoq//////////8FABQAWC5ucHkBABAAoHoMAAAAAABdAQEAAAAAAA=="
+          },
+          {
+            "archive_name": "训练索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQBDrbu8//////////8RABQAdHJhaW5faW5kaWNlcy5ucHkBABAAGB0AAAAAAADyBQAAAAAAAA=="
+          },
+          {
+            "archive_name": "核对索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQBYWJl5//////////8QABQAdGVzdF9pbmRpY2VzLm5weQEAEACgBgAAAAAAALYBAAAAAAAA"
+          },
+          {
+            "archive_name": "抗拉强度观察标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQAQlm7M//////////8WABQAb2JzZXJ2YXRpb25faWRfdXRzLm5weQEAEAAwhwMAAAAAAKJzAAAAAAAA"
+          },
+          {
+            "archive_name": "文献家族标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDB6umT//////////8TABQAcGFwZXJfZmFtaWx5X2lkLm5weQEAEAAolAIAAAAAAMsvAAAAAAAA"
+          },
+          {
+            "archive_name": "特征名称.npy",
+            "header": "UEsDBC0AAAAIAAAAIQCaITpN//////////8RABQAZmVhdHVyZV9uYW1lcy5ucHkBABAAkDgAAAAAAABqAwAAAAAAAA=="
+          }
+        ],
+        "tail": "UEsBAi0DLQAAAAgAAAAhAMCbKipdAQEAoHoMAAUAAAAAAAAAAAAAAIABAAAAAFgubnB5UEsBAi0DLQAAAAgAAAAhAEOtu7zyBQAAGB0AABEAAAAAAAAAAAAAAIABlAEBAHRyYWluX2luZGljZXMubnB5UEsBAi0DLQAAAAgAAAAhAFhYmXm2AQAAoAYAABAAAAAAAAAAAAAAAIAByQcBAHRlc3RfaW5kaWNlcy5ucHlQSwECLQMtAAAACAAAACEAEJZuzKJzAAAwhwMAFgAAAAAAAAAAAAAAgAHBCQEAb2JzZXJ2YXRpb25faWRfdXRzLm5weVBLAQItAy0AAAAIAAAAIQDB6umTyy8AACiUAgATAAAAAAAAAAAAAACAAat9AQBwYXBlcl9mYW1pbHlfaWQubnB5UEsBAi0DLQAAAAgAAAAhAJohOk1qAwAAkDgAABEAAAAAAAAAAAAAAIABu60BAGZlYXR1cmVfbmFtZXMubnB5UEsFBgAAAAAGAAYAdAEAAGixAQAAAA=="
+      }
+    },
+    {
+      "repository_path": "数据/来源排序输入编码折4.npz",
+      "runtime_path": "paper01/analysis/source_aware_ranking/encoded_inputs_fold4.npz",
+      "bytes": 111422,
+      "sha256": "e70daf09b9424450e91c0c390bf88445f08a936412e24aa06b54c24d599e85a9",
+      "runtime_sha256": "2d829ba2a6ee72f06ac6d671442e6ffe2c9a7c2a6630c3854cac230e478cf233",
+      "transform": {
+        "kind": "native_npz_names_only",
+        "prefix": "",
+        "entries": [
+          {
+            "archive_name": "特征矩阵.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDbGZHu//////////8FABQAWC5ucHkBABAAoHoMAAAAAACHAQEAAAAAAA=="
+          },
+          {
+            "archive_name": "训练索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQAvH0Ns//////////8RABQAdHJhaW5faW5kaWNlcy5ucHkBABAAOB0AAAAAAAD6BQAAAAAAAA=="
+          },
+          {
+            "archive_name": "核对索引.npy",
+            "header": "UEsDBC0AAAAIAAAAIQAXH7OX//////////8QABQAdGVzdF9pbmRpY2VzLm5weQEAEACABgAAAAAAAKwBAAAAAAAA"
+          },
+          {
+            "archive_name": "抗拉强度观察标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQAQlm7M//////////8WABQAb2JzZXJ2YXRpb25faWRfdXRzLm5weQEAEAAwhwMAAAAAAKJzAAAAAAAA"
+          },
+          {
+            "archive_name": "文献家族标识.npy",
+            "header": "UEsDBC0AAAAIAAAAIQDB6umT//////////8TABQAcGFwZXJfZmFtaWx5X2lkLm5weQEAEAAolAIAAAAAAMsvAAAAAAAA"
+          },
+          {
+            "archive_name": "特征名称.npy",
+            "header": "UEsDBC0AAAAIAAAAIQCaITpN//////////8RABQAZmVhdHVyZV9uYW1lcy5ucHkBABAAkDgAAAAAAABqAwAAAAAAAA=="
+          }
+        ],
+        "tail": "UEsBAi0DLQAAAAgAAAAhANsZke6HAQEAoHoMAAUAAAAAAAAAAAAAAIABAAAAAFgubnB5UEsBAi0DLQAAAAgAAAAhAC8fQ2z6BQAAOB0AABEAAAAAAAAAAAAAAIABvgEBAHRyYWluX2luZGljZXMubnB5UEsBAi0DLQAAAAgAAAAhABcfs5esAQAAgAYAABAAAAAAAAAAAAAAAIAB+wcBAHRlc3RfaW5kaWNlcy5ucHlQSwECLQMtAAAACAAAACEAEJZuzKJzAAAwhwMAFgAAAAAAAAAAAAAAgAHpCQEAb2JzZXJ2YXRpb25faWRfdXRzLm5weVBLAQItAy0AAAAIAAAAIQDB6umTyy8AACiUAgATAAAAAAAAAAAAAACAAdN9AQBwYXBlcl9mYW1pbHlfaWQubnB5UEsBAi0DLQAAAAgAAAAhAJohOk1qAwAAkDgAABEAAAAAAAAAAAAAAIAB460BAGZlYXR1cmVfbmFtZXMubnB5UEsFBgAAAAAGAAYAdAEAAJCxAQAAAA=="
+      }
+    },
+    {
+      "repository_path": "数据/来源排序首选效用汇总.csv",
+      "runtime_path": "paper01/analysis/source_aware_ranking/top1_utility_summary.csv",
+      "bytes": 1133,
+      "sha256": "4878e1984a33950ba652fcc30adab11a5c478f156989435c981920c70c6a1897",
+      "runtime_sha256": "4878e1984a33950ba652fcc30adab11a5c478f156989435c981920c70c6a1897"
+    },
+    {
+      "repository_path": "数据/来源留出筛选决策.csv",
+      "runtime_path": "paper01/source_data/TITMC_PAPER01_source_heldout_decisions.csv",
+      "bytes": 1892022,
+      "sha256": "7e459bc52be202eea383ad13d24cbb1ca0f13cbf896ef8d1472bbe4314292091",
+      "runtime_sha256": "7e459bc52be202eea383ad13d24cbb1ca0f13cbf896ef8d1472bbe4314292091"
+    },
+    {
+      "repository_path": "数据/来源组中位数.csv",
+      "runtime_path": "data/addition_maps_group_medians.csv",
+      "bytes": 637,
+      "sha256": "ce5dc5f0c8e559b0c9fe674c0b8843cbb35f7ca4d48532981bd286eec0ff30ef",
+      "runtime_sha256": "ce5dc5f0c8e559b0c9fe674c0b8843cbb35f7ca4d48532981bd286eec0ff30ef"
+    },
+    {
+      "repository_path": "数据/添加量地图数值记录.json",
+      "runtime_path": "data/addition_maps_receipt.json",
+      "bytes": 3197,
+      "sha256": "168b46e304bc9a602078e8c768cc1fd6237aff669fa848bf249e4d6e6961d19c",
+      "runtime_sha256": "168b46e304bc9a602078e8c768cc1fd6237aff669fa848bf249e4d6e6961d19c"
+    },
+    {
+      "repository_path": "数据/科研抽取任务与提示.jsonl",
+      "runtime_path": "data/extraction_tasks.jsonl",
+      "bytes": 86869,
+      "sha256": "7a7370484f4ddeb02a3e652e66defdc96af2e55db7f45510c24705c68e8ee843",
+      "runtime_sha256": "7a7370484f4ddeb02a3e652e66defdc96af2e55db7f45510c24705c68e8ee843"
+    },
+    {
+      "repository_path": "数据/科研抽取保存预测.jsonl",
+      "runtime_path": "data/extraction_predictions.jsonl",
+      "bytes": 1084606,
+      "sha256": "c28d5058ebcfbfbeeeda796b882d4a3fcfab0a640250ca86ae2756658c8dcf97",
+      "runtime_sha256": "c28d5058ebcfbfbeeeda796b882d4a3fcfab0a640250ca86ae2756658c8dcf97"
+    },
+    {
+      "repository_path": "数据/科研抽取参考标注.jsonl",
+      "runtime_path": "data/extraction_reference.jsonl",
+      "bytes": 49473,
+      "sha256": "5d64e16878c0a472cef7fe09e09efd6b20b22c6cc982313fb126b95f9a9ff283",
+      "runtime_sha256": "5d64e16878c0a472cef7fe09e09efd6b20b22c6cc982313fb126b95f9a9ff283"
+    },
+    {
+      "repository_path": "数据/筛选分析配置.json",
+      "runtime_path": "ANALYSIS_CONFIG.json",
+      "bytes": 1646,
+      "sha256": "628b45c16c5ff88d9a333b043016f8671960374de199badf14fa10923b318720",
+      "runtime_sha256": "628b45c16c5ff88d9a333b043016f8671960374de199badf14fa10923b318720"
+    },
+    {
+      "repository_path": "数据/设计系列指纹.csv",
+      "runtime_path": "data/addition_maps_fingerprint.csv",
+      "bytes": 6571,
+      "sha256": "3bd80da2f2de40ff595fa924d3e3c74fd6c948179a08e98e004888a0ef7540f8",
+      "runtime_sha256": "3bd80da2f2de40ff595fa924d3e3c74fd6c948179a08e98e004888a0ef7540f8"
+    },
+    {
+      "repository_path": "数据/选择候选来源资格.json",
+      "runtime_path": "SOURCE_QUALIFICATION.json",
+      "bytes": 22171,
+      "sha256": "03bfe38882470fcfa4cd8dd18e2877dc40dc640b0eea8ec7b93ae3a3bb1a11b4",
+      "runtime_sha256": "03bfe38882470fcfa4cd8dd18e2877dc40dc640b0eea8ec7b93ae3a3bb1a11b4"
+    },
+    {
+      "repository_path": "数据/选择序贯统计协议.json",
+      "runtime_path": "data/selection_sequential_spec.json",
+      "bytes": 1630,
+      "sha256": "079988464f1ee80289c6add08a26932f9beb69b5cc9c8cec00c15471d5035d53",
+      "runtime_sha256": "079988464f1ee80289c6add08a26932f9beb69b5cc9c8cec00c15471d5035d53"
+    },
+    {
+      "repository_path": "数据/选择静态统计协议.json",
+      "runtime_path": "data/selection_static_spec.json",
+      "bytes": 8294,
+      "sha256": "a7b9a68f71be00f5ef51a9daad987b355835314c558a2d51ee5e3ebf380620dd",
+      "runtime_sha256": "a7b9a68f71be00f5ef51a9daad987b355835314c558a2d51ee5e3ebf380620dd"
+    },
+    {
+      "repository_path": "数据/预测效用来源清单.csv",
+      "runtime_path": "paper01/analysis/predictive_utility/source_inventory.csv",
+      "bytes": 53702,
+      "sha256": "c37dd86c99c63239a841a4ab1f8dac53cded2f33ccb4928ce47c013c8d465df7",
+      "runtime_sha256": "c37dd86c99c63239a841a4ab1f8dac53cded2f33ccb4928ce47c013c8d465df7"
+    },
+    {
+      "repository_path": "数据/预测效用来源预算方法效用.csv",
+      "runtime_path": "paper01/analysis/predictive_utility/source_budget_method_utility.csv",
+      "bytes": 2538656,
+      "sha256": "f326998e8056c87bff19776a9871e792876dcac2636081642eb57898dda77bc2",
+      "runtime_sha256": "f326998e8056c87bff19776a9871e792876dcac2636081642eb57898dda77bc2"
+    },
+    {
+      "repository_path": "数据/预测效用预算效用汇总.csv",
+      "runtime_path": "paper01/analysis/predictive_utility/budget_utility_summary.csv",
+      "bytes": 71694,
+      "sha256": "4b53fa9e373314f0dc30c0275871056400f77dc7b8d33946f1fdcf4e29d4c9d9",
+      "runtime_sha256": "4b53fa9e373314f0dc30c0275871056400f77dc7b8d33946f1fdcf4e29d4c9d9"
+    },
+    {
+      "repository_path": "说明/发布范围.md",
+      "runtime_path": "RELEASE_NOTES.md",
+      "bytes": 574,
+      "sha256": "a98f3331b57c21b697104f33706bc80008156faf667af7a392f5b2d2eac96aaa",
+      "runtime_sha256": "a98f3331b57c21b697104f33706bc80008156faf667af7a392f5b2d2eac96aaa"
+    },
+    {
+      "repository_path": "说明/数据字典.md",
+      "runtime_path": "DATA_DICTIONARY.md",
+      "bytes": 13919,
+      "sha256": "26e84f00d09856c3f3261f2ac48652a77ff9741a6d55046db47650ab901257ba",
+      "runtime_sha256": "26e84f00d09856c3f3261f2ac48652a77ff9741a6d55046db47650ab901257ba"
+    },
+    {
+      "repository_path": "说明/数据许可.md",
+      "runtime_path": "LICENSE-DATA.md",
+      "bytes": 930,
+      "sha256": "b0c6fba4978355304d1998c23a3d765b41e1dcbb104962fa67fcc2f762ef9dd0",
+      "runtime_sha256": "b0c6fba4978355304d1998c23a3d765b41e1dcbb104962fa67fcc2f762ef9dd0"
+    },
+    {
+      "repository_path": "说明/数据访问范围.md",
+      "runtime_path": "DATA_ACCESS.md",
+      "bytes": 1501,
+      "sha256": "6c3b8b8ae3214fda746ecf9f2c5a90e07076ff2ee21039d8bc476ea657b739a8",
+      "runtime_sha256": "6c3b8b8ae3214fda746ecf9f2c5a90e07076ff2ee21039d8bc476ea657b739a8"
+    },
+    {
+      "repository_path": "说明/环境依赖.txt",
+      "runtime_path": "requirements.txt",
+      "bytes": 72,
+      "sha256": "78d26ef1e8958a41eca4c15fb7950cb4cfed6d24e1c5fafca4dc3e2fb715507a",
+      "runtime_sha256": "78d26ef1e8958a41eca4c15fb7950cb4cfed6d24e1c5fafca4dc3e2fb715507a"
+    }
+  ]
+}

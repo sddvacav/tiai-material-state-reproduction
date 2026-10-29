@@ -1,0 +1,62 @@
+{
+  "panel_denominators": [
+    {
+      "panel": "grain",
+      "descriptor": "grain_size_um",
+      "endpoint": "ultimate_tensile_strength",
+      "plotted_observations": 482,
+      "plotted_sources": 162
+    },
+    {
+      "panel": "prior_beta",
+      "descriptor": "prior_beta_grain_size_um",
+      "endpoint": "ultimate_tensile_strength",
+      "plotted_observations": 152,
+      "plotted_sources": 35
+    },
+    {
+      "panel": "alpha_lath",
+      "descriptor": "alpha_lath_size_um",
+      "endpoint": "ultimate_tensile_strength",
+      "plotted_observations": 167,
+      "plotted_sources": 54
+    },
+    {
+      "panel": "colony",
+      "descriptor": "colony_size_um",
+      "endpoint": "ultimate_tensile_strength",
+      "plotted_observations": 19,
+      "plotted_sources": 10
+    },
+    {
+      "panel": "alpha_fraction",
+      "descriptor": "alpha_phase_fraction_pct",
+      "endpoint": "elongation_unspecified",
+      "plotted_observations": 222,
+      "plotted_sources": 68
+    },
+    {
+      "panel": "beta_fraction",
+      "descriptor": "beta_phase_fraction_pct",
+      "endpoint": "elongation_unspecified",
+      "plotted_observations": 194,
+      "plotted_sources": 58
+    },
+    {
+      "panel": "morphology",
+      "descriptor": "microstructure_morphology_raw",
+      "endpoint": "elongation_unspecified",
+      "plotted_observations": 38,
+      "plotted_sources": 17
+    },
+    {
+      "panel": "texture",
+      "descriptor": "texture_fiber_or_component",
+      "endpoint": "ultimate_tensile_strength",
+      "plotted_observations": 52,
+      "plotted_sources": 11
+    }
+  ],
+  "interpretation": "Same-row tensile responses selected by stored measured/analysis-usable flags and the declared RT scope after existing exact-source corrections; these flags are not exhaustive primary-source revalidation. Grain/prior-beta/lath/colony sizes and phase fractions retain their named fields. Elongation is elongation_unspecified; uniform/total and area/volume definitions are not harmonized. Material-family support envelopes are observed ranges, not confidence intervals or density.",
+  "claim_ceiling": "Same-row tensile responses at the declared recorded RT scope: reported numerical15-35 C or source-reported textual RT, without assigning numerical Celsius to textual RT. Recorded exact-source corrections precede descriptor and endpoint admission; original identities and measured values are preserved. Named grain/prior-beta/lath/colony fields remain distinct. Unspecified elongation is not pooled with total or uniform elongation. Native primary-source fields are not exhaustively reverified. Morphology is a DOI-bound vocabulary, not a scale. Texture is a qualitative tag, not ODF intensity. KAM/GND are absent and not synthesized. Locator completeness is coverage, not admission."
+}

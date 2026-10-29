@@ -1,0 +1,47 @@
+{
+  "shared_filter": {
+    "cohort": "primary_source_qualified",
+    "requested_k": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "comparator": [
+      "fixed_ridge",
+      "common_ridge_seed_uniform_completion"
+    ]
+  },
+  "panels": [
+    {
+      "id": "A",
+      "question": "Does selected-label adaptation find more jointly qualified recorded states?",
+      "metric": "attainment",
+      "x": "requested_k",
+      "y": "paired_gain",
+      "ci": [
+        "paired_gain_ci95_low",
+        "paired_gain_ci95_high"
+      ],
+      "scale_factor": 100,
+      "y_label": "Adaptive attainment gain (percentage points)",
+      "required_k2_context": "Adaptive 45/168; fixed ridge 42/168; common-first uniform exact expectation 26.662609%; paired adaptive-minus-matched +0.123106 pp [-2.526400,+2.749724]"
+    },
+    {
+      "id": "B",
+      "question": "Does adaptation reduce regret from the best recorded compromise?",
+      "metric": "regret",
+      "x": "requested_k",
+      "y": "paired_gain",
+      "ci": [
+        "paired_gain_ci95_low",
+        "paired_gain_ci95_high"
+      ],
+      "scale_factor": 1,
+      "y_label": "Adaptive observed-best regret reduction (q units)",
+      "q_definition": "min(UTS/1000 MPa, reported unspecified EL/10%); no cap at 1",
+      "required_k2_context": "kernel_residual_greedy regret 0.074598929; fixed_ridge regret 0.082616786; common_ridge_seed_uniform_completion regret 0.068279907"
+    }
+  ],
+  "diagnostic_annotation": "52/180 source candidate sets have identical encoded X; median sourcewise RBF similarity 0.9801 at frozen outer-training scales; only 9/168 second choices change"
+}

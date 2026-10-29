@@ -1,0 +1,69 @@
+{
+  "numeric_x_columns": [
+    "composition_al_wt_pct",
+    "composition_b_wt_pct",
+    "composition_c_wt_pct_analysis",
+    "composition_co_wt_pct",
+    "composition_cr_wt_pct",
+    "composition_cu_wt_pct",
+    "composition_fe_wt_pct",
+    "composition_h_wt_pct_analysis",
+    "composition_hf_wt_pct",
+    "composition_la_wt_pct",
+    "composition_mn_wt_pct",
+    "composition_mo_wt_pct",
+    "composition_n_wt_pct_analysis",
+    "composition_nb_wt_pct",
+    "composition_ni_wt_pct",
+    "composition_o_wt_pct_analysis",
+    "composition_si_wt_pct",
+    "composition_sn_wt_pct",
+    "composition_ta_wt_pct",
+    "composition_ti_wt_pct",
+    "composition_v_wt_pct",
+    "composition_w_wt_pct",
+    "composition_y_wt_pct",
+    "composition_zr_wt_pct",
+    "solution_temperature_c",
+    "solution_time_h",
+    "aging_temperature_c",
+    "aging_time_h",
+    "secondary_aging_temperature_c",
+    "hip_temperature_c",
+    "hip_time_h",
+    "hip_pressure_mpa",
+    "laser_power_w",
+    "scan_speed_mm_s",
+    "volumetric_energy_density_j_mm3",
+    "test_temperature_c_analysis",
+    "strain_rate_s_inverse",
+    "precursor_amount_wt_pct",
+    "precursor_amount_vol_pct"
+  ],
+  "categorical_x_columns": [
+    "route",
+    "solution_cooling",
+    "precursor_phase",
+    "composition_role",
+    "composition_basis"
+  ],
+  "thresholds": {
+    "uts_mpa": 1000.0,
+    "elong_pct": 10.0
+  },
+  "objective": "q = min(UTS / 1000 MPa, elongation / 10 percent)",
+  "budgets_static": [
+    1,
+    2,
+    3,
+    5,
+    10
+  ],
+  "budgets_sequential": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "source": "Frozen feature interface and saved source-held-out predictions."
+}

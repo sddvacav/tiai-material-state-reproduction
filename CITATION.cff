@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+type: software
+title: "TiAI: Making Material States Count in Literature-Driven Design of Titanium Alloys and Titanium Matrix Composites — numerical reproduction"
+version: 1.0.0
+date-released: 2026-10-29
+authors:
+  - family-names: Chu
+    given-names: Ranxing
+    affiliation: "Harbin Institute of Technology"
+repository-code: "https://github.com/sddvacav/tiai-material-state-reproduction"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "Released inputs, analysis code and recorded results of nine numerical analyses of literature-derived strength, ductility and related properties of titanium alloys and titanium matrix composites."
+keywords:
+  - titanium alloys
+  - titanium matrix composites
+  - materials informatics
+  - reproducibility

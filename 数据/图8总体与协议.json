@@ -1,0 +1,22 @@
+{
+  "n_portfolios": 400,
+  "seed": 20260907,
+  "hv_reference": [
+    0.0,
+    0.0
+  ],
+  "n_pairs": 1268,
+  "n_pairs_checked": 1272,
+  "n_paperfamilies": 379,
+  "n_dated_pairs": 1235,
+  "n_missing_or_conflicted_year_pairs": 33,
+  "n_front": 8,
+  "n_old_front": 3,
+  "n_recent_front": 7,
+  "n_old_pairs": 183,
+  "n_recent_pairs": 1052,
+  "hv_normalizer_dated": 52395.899999999994,
+  "kish_state_weights": 632.5126683242185,
+  "source_sha256": "f58e559ed5b6128fcf985d7dcd0c5c8b1384c8a4bca816c698602ba8f838796d",
+  "claim_ceiling": "Observed room-temperature UTS-elongation envelope of recorded reports. Every envelope record was checked against its primary publication for its values, material state, room-temperature testing, engineering strength and elongation to fracture; records that failed are held out with their reason. The envelope is neither a physical bound nor an independent replication or a design recommendation."
+}

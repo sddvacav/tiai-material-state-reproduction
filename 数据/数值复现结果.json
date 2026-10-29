@@ -1,0 +1,723 @@
+{
+  "schema": "tiai.publication.numerical_replay.v1",
+  "scope": "Reports of the three reproduction commands in README.md, run on the files of this release",
+  "runtime": {
+    "python": "3.13.13",
+    "numpy": "2.5.1",
+    "pandas": "2.3.3",
+    "backend": "torch CUDA float64",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 5080 Laptop GPU"
+  },
+  "code_sha256": "372a58ad07638d6e6dcd5f662f201b6fab93e48ad50440f7051641c348185e1e",
+  "data_inputs_sha256": "aea7ca90100cb084014742cddae093ac58309fed856b78e0a751be939ed5b172",
+  "model_fit_calls": 0,
+  "elapsed_seconds": {
+    "materials": 124.8,
+    "saved-models": 2.8,
+    "target-plane": 2.9
+  },
+  "reports": {
+    "material-relations": {
+      "status": "passed",
+      "backend": "torch CUDA float64",
+      "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+      "cohorts": {
+        "rt": {
+          "pairs": 1233,
+          "sources": 366,
+          "moments": {
+            "pooled_slope_mpa_per_pct": 1.9117391763602911,
+            "pooled_r": 0.04008713005180712,
+            "balanced_slope_mpa_per_pct": -0.026722186091477914,
+            "balanced_r": -0.0005541146384782798,
+            "within_slope_mpa_per_pct": -11.0989710051041,
+            "within_r": -0.36094740739021086,
+            "between_slope_mpa_per_pct": 2.3473088315814366,
+            "between_r": 0.04584476857233381,
+            "el_between_source_variance_share": 0.8234432834577913,
+            "uts_between_source_variance_share": 0.9282177441422145
+          },
+          "maximum_absolute_difference": 1.7763568394002505e-15,
+          "primary_interval": {
+            "within_slope_ci_low": -14.345848833181991,
+            "within_slope_ci_high": -7.877767357786955
+          }
+        },
+        "ht": {
+          "pairs": 458,
+          "sources": 108,
+          "moments": {
+            "pooled_slope_mpa_per_pct": 2.74995495235189,
+            "pooled_r": 0.09762007186069423,
+            "balanced_slope_mpa_per_pct": 0.39697965136472696,
+            "balanced_r": 0.014370019543594249,
+            "within_slope_mpa_per_pct": -9.283962347666964,
+            "within_r": -0.3546103734401035,
+            "between_slope_mpa_per_pct": 2.203270201986281,
+            "between_r": 0.07900753320713101,
+            "el_between_source_variance_share": 0.8427566828812842,
+            "uts_between_source_variance_share": 0.8587741193468363
+          },
+          "maximum_absolute_difference": 0.0,
+          "primary_interval": {
+            "within_slope_ci_low": -13.346814062208505,
+            "within_slope_ci_high": -5.645643527229189
+          }
+        }
+      },
+      "model_fits": 0,
+      "bootstrap_intervals_recomputed": true,
+      "bootstrap_draws": 2000,
+      "bootstrap_seed": 20260908,
+      "scope": "Original equal-source covariance moments and primary within-source bootstrap intervals after existing admission; no source adjudication or causal inference. The separate 5000-draw sensitivity is not substituted for the primary protocol."
+    },
+    "frontier": {
+      "status": "passed",
+      "n_pairs": 1268,
+      "n_paperfamilies": 379,
+      "n_dated_pairs": 1235,
+      "n_missing_or_conflicted_year_pairs": 33,
+      "n_front": 8,
+      "n_old_front": 3,
+      "n_recent_front": 7,
+      "n_old_pairs": 183,
+      "n_recent_pairs": 1052,
+      "hv_normalizer_dated": 52395.899999999994,
+      "kish_state_weights": 632.5126683242185,
+      "source_generation": "f58e559ed5b6128fcf985d7dcd0c5c8b1384c8a4bca816c698602ba8f838796d",
+      "n_retained_excluded_pairs": 4,
+      "excluded_pairs": [
+        {
+          "observation_id_uts": "feature-observation:95dc914f0e139e894f66d0f606c9ff49",
+          "observation_id_el": "feature-observation:13c3483e42dad9527fb98bd215f44b9b",
+          "reason": "SOURCE_MINIATURE_GAUGE_STATED_NONCOMPARABLE"
+        },
+        {
+          "observation_id_uts": "feature-observation:8744d104993091d2b2c4a670db1f3011",
+          "observation_id_el": "feature-observation:a69118b86724f6ef69bb8c5cd603091c",
+          "reason": "SOURCE_MINIATURE_GAUGE_STATED_NONCOMPARABLE"
+        },
+        {
+          "observation_id_uts": "feature-observation:f5cfef7f460cdeaa15c51e2ee4ff5af5",
+          "observation_id_el": "feature-observation:a56ffd268a59a8e73f993a8499c02b08",
+          "reason": "SOURCE_MINIATURE_GAUGE_STATED_NONCOMPARABLE"
+        },
+        {
+          "observation_id_uts": "feature-observation:d2175aa3bb2a55b28066efe6e1089f28",
+          "observation_id_el": "feature-observation:f89afe91bdfd6f8e4a45f796c164a3bd",
+          "reason": "SOURCE_MINIATURE_GAUGE_STATED_NONCOMPARABLE"
+        }
+      ],
+      "frontier_observation_ids": {
+        "on_front": [
+          "feature-observation:051f5616b69df55cb15717949eede60c",
+          "feature-observation:fda1b3ab37b5b166ec8d1df8f5493ebd",
+          "feature-observation:3ebc07786d2b12ff8d120c8fce4a3975",
+          "feature-observation:e619872ca394447da7393ffb8ba24b99",
+          "feature-observation:911666eeb60473995e9b1fc3a08bb0dc",
+          "science-observation:OBSFRONT_94cf769c146d5706853e",
+          "feature-observation:c2d07b26f3f5f88a521cc2c3f853cc7f",
+          "feature-observation:438fbfa833e94772231b4fe1cfdb240b"
+        ],
+        "old_front": [
+          "feature-observation:3a3fdbf9602b3eac80a17ad27086a874",
+          "feature-observation:4e3cfd3584d1cd23a97b1da1fcb0aea3",
+          "feature-observation:911666eeb60473995e9b1fc3a08bb0dc"
+        ],
+        "recent_front": [
+          "feature-observation:051f5616b69df55cb15717949eede60c",
+          "feature-observation:fda1b3ab37b5b166ec8d1df8f5493ebd",
+          "feature-observation:3ebc07786d2b12ff8d120c8fce4a3975",
+          "feature-observation:e619872ca394447da7393ffb8ba24b99",
+          "science-observation:OBSFRONT_94cf769c146d5706853e",
+          "feature-observation:c2d07b26f3f5f88a521cc2c3f853cc7f",
+          "feature-observation:438fbfa833e94772231b4fe1cfdb240b"
+        ]
+      },
+      "analysis_comparisons": {
+        "history": {
+          "rows": 27,
+          "maximum_absolute_difference": 0.0
+        },
+        "attainment": {
+          "rows": 6561,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "history": [
+        {
+          "year": 2000,
+          "n_pairs": 16,
+          "n_paperfamilies": 5,
+          "raw_hv_ratio": 0.24832286495699094,
+          "portfolio_p10": 0.1117911897686651,
+          "portfolio_median": 0.15514190995860366,
+          "portfolio_p90": 0.22051343712008004
+        },
+        {
+          "year": 2001,
+          "n_pairs": 21,
+          "n_paperfamilies": 7,
+          "raw_hv_ratio": 0.29012002847551055,
+          "portfolio_p10": 0.23259453506858363,
+          "portfolio_median": 0.2585030508112276,
+          "portfolio_p90": 0.27244116428957227
+        },
+        {
+          "year": 2002,
+          "n_pairs": 21,
+          "n_paperfamilies": 7,
+          "raw_hv_ratio": 0.29012002847551055,
+          "portfolio_p10": 0.2324905192963572,
+          "portfolio_median": 0.2585030508112276,
+          "portfolio_p90": 0.28352790962651664
+        },
+        {
+          "year": 2003,
+          "n_pairs": 21,
+          "n_paperfamilies": 7,
+          "raw_hv_ratio": 0.29012002847551055,
+          "portfolio_p10": 0.23259453506858363,
+          "portfolio_median": 0.2585030508112276,
+          "portfolio_p90": 0.28352790962651664
+        },
+        {
+          "year": 2004,
+          "n_pairs": 21,
+          "n_paperfamilies": 7,
+          "raw_hv_ratio": 0.29012002847551055,
+          "portfolio_p10": 0.23259453506858363,
+          "portfolio_median": 0.25465542151198856,
+          "portfolio_p90": 0.27244116428957227
+        },
+        {
+          "year": 2005,
+          "n_pairs": 28,
+          "n_paperfamilies": 8,
+          "raw_hv_ratio": 0.29012002847551055,
+          "portfolio_p10": 0.23259453506858363,
+          "portfolio_median": 0.2585030508112276,
+          "portfolio_p90": 0.27244116428957227
+        },
+        {
+          "year": 2006,
+          "n_pairs": 29,
+          "n_paperfamilies": 9,
+          "raw_hv_ratio": 0.29012002847551055,
+          "portfolio_p10": 0.23259453506858363,
+          "portfolio_median": 0.2585030508112276,
+          "portfolio_p90": 0.27244116428957227
+        },
+        {
+          "year": 2007,
+          "n_pairs": 40,
+          "n_paperfamilies": 14,
+          "raw_hv_ratio": 0.4374691912916851,
+          "portfolio_p10": 0.32949906385805,
+          "portfolio_median": 0.3456014688172166,
+          "portfolio_p90": 0.4245174145305263
+        },
+        {
+          "year": 2008,
+          "n_pairs": 68,
+          "n_paperfamilies": 21,
+          "raw_hv_ratio": 0.44600191999755706,
+          "portfolio_p10": 0.3464347401227959,
+          "portfolio_median": 0.35899755515221615,
+          "portfolio_p90": 0.43490044068333594
+        },
+        {
+          "year": 2009,
+          "n_pairs": 92,
+          "n_paperfamilies": 28,
+          "raw_hv_ratio": 0.4470325349884247,
+          "portfolio_p10": 0.38814482049167975,
+          "portfolio_median": 0.3959251010098119,
+          "portfolio_p90": 0.43490044068333594
+        },
+        {
+          "year": 2010,
+          "n_pairs": 116,
+          "n_paperfamilies": 35,
+          "raw_hv_ratio": 0.45162598600272164,
+          "portfolio_p10": 0.3980813785048066,
+          "portfolio_median": 0.40646363551346576,
+          "portfolio_p90": 0.44339031870814327
+        },
+        {
+          "year": 2011,
+          "n_pairs": 137,
+          "n_paperfamilies": 41,
+          "raw_hv_ratio": 0.4624184335033848,
+          "portfolio_p10": 0.41568141782086004,
+          "portfolio_median": 0.4216814483576005,
+          "portfolio_p90": 0.4524537148899056
+        },
+        {
+          "year": 2012,
+          "n_pairs": 157,
+          "n_paperfamilies": 48,
+          "raw_hv_ratio": 0.4625902026685294,
+          "portfolio_p10": 0.41738038281621276,
+          "portfolio_median": 0.4234808830461926,
+          "portfolio_p90": 0.4530337679093212
+        },
+        {
+          "year": 2013,
+          "n_pairs": 158,
+          "n_paperfamilies": 49,
+          "raw_hv_ratio": 0.4625902026685294,
+          "portfolio_p10": 0.41756336278220246,
+          "portfolio_median": 0.4221270557429112,
+          "portfolio_p90": 0.4529600598520114
+        },
+        {
+          "year": 2014,
+          "n_pairs": 169,
+          "n_paperfamilies": 54,
+          "raw_hv_ratio": 0.7246807479211161,
+          "portfolio_p10": 0.513360778228831,
+          "portfolio_median": 0.6260012520063594,
+          "portfolio_p90": 0.6378516296122407
+        },
+        {
+          "year": 2015,
+          "n_pairs": 183,
+          "n_paperfamilies": 58,
+          "raw_hv_ratio": 0.7246807479211161,
+          "portfolio_p10": 0.513360778228831,
+          "portfolio_median": 0.624814346160673,
+          "portfolio_p90": 0.6381376901627801
+        },
+        {
+          "year": 2016,
+          "n_pairs": 215,
+          "n_paperfamilies": 72,
+          "raw_hv_ratio": 0.7269519179935836,
+          "portfolio_p10": 0.5156319483012984,
+          "portfolio_median": 0.5413209812218132,
+          "portfolio_p90": 0.7197376130575104
+        },
+        {
+          "year": 2017,
+          "n_pairs": 250,
+          "n_paperfamilies": 84,
+          "raw_hv_ratio": 0.7269519179935836,
+          "portfolio_p10": 0.5208804505696056,
+          "portfolio_median": 0.714011974219357,
+          "portfolio_p90": 0.7197376130575104
+        },
+        {
+          "year": 2018,
+          "n_pairs": 277,
+          "n_paperfamilies": 91,
+          "raw_hv_ratio": 0.7269519179935836,
+          "portfolio_p10": 0.5208804505696056,
+          "portfolio_median": 0.5413209812218132,
+          "portfolio_p90": 0.7197376130575104
+        },
+        {
+          "year": 2019,
+          "n_pairs": 341,
+          "n_paperfamilies": 107,
+          "raw_hv_ratio": 0.7269519179935836,
+          "portfolio_p10": 0.5208804505696056,
+          "portfolio_median": 0.5413209812218132,
+          "portfolio_p90": 0.7197376130575104
+        },
+        {
+          "year": 2020,
+          "n_pairs": 386,
+          "n_paperfamilies": 120,
+          "raw_hv_ratio": 0.9241753648663351,
+          "portfolio_p10": 0.5252510215493961,
+          "portfolio_median": 0.714011974219357,
+          "portfolio_p90": 0.9215415710007845
+        },
+        {
+          "year": 2021,
+          "n_pairs": 441,
+          "n_paperfamilies": 140,
+          "raw_hv_ratio": 0.9243566767628766,
+          "portfolio_p10": 0.5354323525314004,
+          "portfolio_median": 0.7146799654171416,
+          "portfolio_p90": 0.9215415710007845
+        },
+        {
+          "year": 2022,
+          "n_pairs": 550,
+          "n_paperfamilies": 176,
+          "raw_hv_ratio": 0.9243566767628766,
+          "portfolio_p10": 0.5354323525314004,
+          "portfolio_median": 0.714011974219357,
+          "portfolio_p90": 0.9215415710007845
+        },
+        {
+          "year": 2023,
+          "n_pairs": 799,
+          "n_paperfamilies": 222,
+          "raw_hv_ratio": 0.9247116663708421,
+          "portfolio_p10": 0.5354323525314004,
+          "portfolio_median": 0.7156628667510245,
+          "portfolio_p90": 0.9215415710007845
+        },
+        {
+          "year": 2024,
+          "n_pairs": 980,
+          "n_paperfamilies": 271,
+          "raw_hv_ratio": 0.9756221383734224,
+          "portfolio_p10": 0.8859357316125881,
+          "portfolio_median": 0.8913941739716277,
+          "portfolio_p90": 0.9756221383734224
+        },
+        {
+          "year": 2025,
+          "n_pairs": 1182,
+          "n_paperfamilies": 345,
+          "raw_hv_ratio": 0.9956008008260189,
+          "portfolio_p10": 0.8874014951551554,
+          "portfolio_median": 0.892859937514195,
+          "portfolio_p90": 0.9770879019159897
+        },
+        {
+          "year": 2026,
+          "n_pairs": 1235,
+          "n_paperfamilies": 374,
+          "raw_hv_ratio": 1.0,
+          "portfolio_p10": 0.892118467284654,
+          "portfolio_median": 0.9041279947476807,
+          "portfolio_p90": 0.983449086665178
+        }
+      ],
+      "attainment_grid_shape": [
+        81,
+        81
+      ],
+      "n_portfolios": 400,
+      "seed": 20260907,
+      "era_cut": 2016,
+      "hv_reference": [
+        0.0,
+        0.0
+      ],
+      "source_encoding": "Arrow dictionary, original first-seen admitted-row order",
+      "dated_mask": "Saved pair-year agreement/eligibility; numeric year validity checked, raw paired-year admission not reconstructed",
+      "comparison_atol": 1e-10,
+      "comparison_rtol": 1e-12,
+      "model_fits": 0,
+      "model_inference": 0,
+      "scope": "Strict observed Pareto, dated hypervolume/400 source portfolios and source attainment after existing admission; no source-text, original pairing or full-table admission replay",
+      "claim_ceiling": "Observed room-temperature UTS-elongation envelope of recorded reports. Every envelope record was checked against its primary publication for its values, material state, room-temperature testing, engineering strength and elongation to fracture; records that failed are held out with their reason. The envelope is neither a physical bound nor an independent replication or a design recommendation.",
+      "portfolio_interval": "10–90% portfolio spread, not a confidence interval"
+    },
+    "temporal": {
+      "status": "passed",
+      "backend": "torch CUDA float64",
+      "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+      "windows": 187,
+      "observations": 4961,
+      "maximum_absolute_difference": 2.2737367544323206e-13,
+      "bootstrap_draws": 300,
+      "bootstrap_intervals_recomputed": true,
+      "scope": "Original main-RT endpoint windows and source-resampled intervals after existing admission; source-incidence and upstream admission are separate."
+    },
+    "microstructure": {
+      "status": "passed",
+      "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+      "backend": "torch CUDA float64",
+      "panels": [
+        {
+          "panel": "grain",
+          "observations": 482,
+          "sources": 162,
+          "coordinates_equal": true
+        },
+        {
+          "panel": "prior_beta",
+          "observations": 152,
+          "sources": 35,
+          "coordinates_equal": true
+        },
+        {
+          "panel": "alpha_lath",
+          "observations": 167,
+          "sources": 54,
+          "coordinates_equal": true
+        },
+        {
+          "panel": "colony",
+          "observations": 19,
+          "sources": 10,
+          "coordinates_equal": true
+        },
+        {
+          "panel": "alpha_fraction",
+          "observations": 222,
+          "sources": 68,
+          "coordinates_equal": true
+        },
+        {
+          "panel": "beta_fraction",
+          "observations": 194,
+          "sources": 58,
+          "coordinates_equal": true
+        }
+      ],
+      "model_fits": 0,
+      "scope": "Same-row physical descriptor/property mapping after existing admission; broad raw-field census and categorical label admission are not recomputed."
+    },
+    "associations": {
+      "status": "passed",
+      "backend": "torch CUDA float64",
+      "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+      "reference_cells": 1364,
+      "estimated_cells": 438,
+      "model_fits": 0,
+      "bootstrap_intervals_recomputed": true,
+      "bootstrap_draws": 500,
+      "scope": "Original rank, within/between effects, exact family-reranked intervals, LOFO, random-effects summaries and original global/block FDR from admitted state-unit medians. Raw source adjudication and census admission remain separate."
+    },
+    "dose": {
+      "status": "passed",
+      "backend": "torch CUDA float64",
+      "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+      "comparisons": {
+        "series": {
+          "rows": 3646,
+          "maximum_absolute_difference": 4.3353065848350525e-06
+        },
+        "source_effects": {
+          "rows": 3065,
+          "maximum_absolute_difference": 4.3353065848350525e-06
+        },
+        "summary_effects": {
+          "rows": 536,
+          "maximum_absolute_difference": 3.759283572435379e-06
+        }
+      },
+      "bootstrap_intervals_recomputed": true,
+      "bootstrap_draws": 2000,
+      "seed": 20261018,
+      "rng": "Original NumPy PCG64 integer source-index plans only; numerical statistics and quantiles on CUDA",
+      "model_fits": 0,
+      "scope": "All supplied admitted dose-series OLS, source-level summaries and pointwise mean/median intervals. Upstream raw source admission and distinct main-protocol paired spans remain separate."
+    },
+    "addition-maps": {
+      "status": "passed",
+      "backend": "torch CUDA float64",
+      "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+      "counts": {
+        "spans": 3347,
+        "compared_spans": 1007,
+        "paired": 603,
+        "compared_paired": 191,
+        "families": 265,
+        "designed_series": 189,
+        "reinforcement_cloud": 56,
+        "content_points": 240,
+        "zero_baseline_content_series": 123,
+        "zero_baseline_content_sources": 28
+      },
+      "csv_files": 11,
+      "comparisons": {
+        "addition_maps_compass.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "addition_maps_content_bins.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "addition_maps_content_points.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "addition_maps_contrast.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "addition_maps_design.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "addition_maps_designed_series.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "addition_maps_fingerprint.csv": {
+          "byte_identical": false,
+          "maximum_absolute_difference": 1.7763568394002505e-15
+        },
+        "addition_maps_fingerprint_all_series.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "addition_maps_group_medians.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "addition_maps_reinforcement_bands.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "addition_maps_reinforcement_cloud.csv": {
+          "byte_identical": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "comparison_atol": 1e-09,
+      "comparison_rtol": 1e-12,
+      "bootstrap_draws": 4000,
+      "bootstrap_intervals_recomputed": true,
+      "figures_rendered": false,
+      "scope": "Original designed-series, family means, medians, 4000-draw intervals and content bins; no new figure pixels."
+    },
+    "saved-models": {
+      "status": "passed",
+      "prediction_queries": 4808,
+      "targets": [
+        {
+          "target": "uts_mpa",
+          "r2": 0.9055023893398606,
+          "rmse": 82.01120039442547,
+          "mae": 55.940832468898336,
+          "p95ae": 169.30403408056455,
+          "bias": -1.7065967468032481,
+          "observed_iqr": 397.0,
+          "threshold": 0.9,
+          "passed": true,
+          "same_boundary_gate_pass": "True",
+          "display_status": "SOURCE_ROLE_QUALIFIED_SAVED_QUERY_SUBSET",
+          "authority_promoted": false,
+          "n_unique_queries": 2509,
+          "prediction_event_count": 2509,
+          "n_sources": 860,
+          "boundary": "Applicability-domain-qualified, high-quality condition-group OOF",
+          "validation_estimand": "applicability-domain-qualified condition-level prediction",
+          "group_isolation_state": "CONDITION_GROUP_OOF_NOT_SOURCE_ISOLATED",
+          "source_fold_overlap_count": 393
+        },
+        {
+          "target": "ys_mpa",
+          "r2": 0.9446487347353988,
+          "rmse": 74.90513042994834,
+          "mae": 50.47574931370276,
+          "p95ae": 153.48481748206382,
+          "bias": -1.073077748905763,
+          "observed_iqr": 480.0,
+          "threshold": 0.9,
+          "passed": true,
+          "same_boundary_gate_pass": "True",
+          "display_status": "SOURCE_ROLE_QUALIFIED_SAVED_QUERY_SUBSET",
+          "authority_promoted": false,
+          "n_unique_queries": 1565,
+          "prediction_event_count": 1565,
+          "n_sources": 230,
+          "boundary": "Applicability-domain and source-supported high-confidence OOF",
+          "validation_estimand": "source-supported operational prediction",
+          "group_isolation_state": "SOURCE_SUPPORTED_OOF_NOT_SOURCE_ISOLATED",
+          "source_fold_overlap_count": 189
+        },
+        {
+          "target": "elong_pct",
+          "r2": 0.9331950035511077,
+          "rmse": 1.299835692160375,
+          "mae": 0.8858226940639269,
+          "p95ae": 2.777958550000001,
+          "bias": -0.006487424657534219,
+          "observed_iqr": 6.015,
+          "threshold": 0.9,
+          "passed": true,
+          "same_boundary_gate_pass": "True",
+          "display_status": "SOURCE_ROLE_QUALIFIED_SAVED_QUERY_SUBSET",
+          "authority_promoted": false,
+          "n_unique_queries": 438,
+          "prediction_event_count": 438,
+          "n_sources": 71,
+          "boundary": "source-supported condition-group application domain",
+          "validation_estimand": "source-supported condition-group OOF with at least five training-side records from the same literature source",
+          "group_isolation_state": "NOT_SOURCE_ISOLATED_SOURCE_SUPPORTED",
+          "source_fold_overlap_count": 62
+        },
+        {
+          "target": "modulus_gpa",
+          "r2": 0.9118846381450498,
+          "rmse": 5.892915819157885,
+          "mae": 3.8255613975520832,
+          "p95ae": 13.9135388895,
+          "bias": -0.4696888382812503,
+          "observed_iqr": 14.025000000000006,
+          "threshold": 0.9,
+          "passed": true,
+          "same_boundary_gate_pass": "True",
+          "display_status": "SOURCE_ROLE_QUALIFIED_SAVED_QUERY_SUBSET",
+          "authority_promoted": false,
+          "n_unique_queries": 192,
+          "prediction_event_count": 192,
+          "n_sources": 38,
+          "boundary": "Tier-A and source-supported high-quality OOF",
+          "validation_estimand": "tier-A source-supported operational prediction",
+          "group_isolation_state": "SOURCE_SUPPORTED_OOF_NOT_SOURCE_ISOLATED",
+          "source_fold_overlap_count": 29
+        },
+        {
+          "target": "hardness_hv",
+          "r2": 0.902737437641708,
+          "rmse": 54.44244700334262,
+          "mae": 40.074761531991605,
+          "p95ae": 118.3267518963618,
+          "bias": 2.9926097309564725,
+          "observed_iqr": 169.25,
+          "threshold": 0.9,
+          "passed": true,
+          "same_boundary_gate_pass": "True",
+          "display_status": "SOURCE_ROLE_QUALIFIED_SAVED_QUERY_SUBSET",
+          "authority_promoted": false,
+          "n_unique_queries": 104,
+          "prediction_event_count": 620,
+          "n_sources": 8,
+          "boundary": "Strict source holdout with k-support calibration",
+          "validation_estimand": "study-isolated k-support calibration at unique-query level",
+          "group_isolation_state": "SOURCE_HOLDOUT_K_SUPPORT_QUERY_LEVEL",
+          "source_fold_overlap_count": 0
+        }
+      ],
+      "computation": {
+        "backend": "PyTorch CUDA float64",
+        "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+        "cuda_elapsed_ms": 339.97216796875,
+        "synchronized": true,
+        "operations": [
+          "metrics",
+          "quantiles",
+          "residual_normalization",
+          "ECDF_sort"
+        ],
+        "model_fit_calls": 0,
+        "input_predictions": 4819,
+        "cpu_compute_fallback": false,
+        "historical_input_predictions": 4819,
+        "publication_predictions": 4808
+      },
+      "model_fits": 0,
+      "model_inference": 0,
+      "bootstrap_intervals_recomputed": false,
+      "scope": "Figure 9 saved-query metrics, residual normalization and error ECDFs under each recorded support/overlap boundary; not model retraining, recalibration or unseen-source validation."
+    },
+    "target-plane": {
+      "status": "passed",
+      "cells": 40401,
+      "maximum_absolute_difference": 0.0,
+      "primary_candidates": 913,
+      "primary_sources": 168,
+      "source_local_X_blocks": 592,
+      "backend": "torch CUDA float64",
+      "model_fits": 0,
+      "model_inference": 0,
+      "figures_rendered": false,
+      "scope": "Original observed-label references on the fixed qualified cohort; no new model or deployable policy"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "mode": "DATA_ONLY",
+  "purpose": "Numerical Source Data of Figures 11 and 12",
+  "inputs": {
+    "all_source_context_spans.csv.gz": {
+      "bytes": 514736,
+      "sha256": "4b53c14c98b639c6d8971d85947c61bb47e101b6b472457705704757877c9b8c"
+    },
+    "all_paired_strength_elongation_spans.csv.gz": {
+      "bytes": 188321,
+      "sha256": "624458d57955469b2350063dcb47e33422afd75092097d7e0e96c456ab5bffa5"
+    },
+    "all_source_context_series_points.csv.gz": {
+      "bytes": 455954,
+      "sha256": "2f793cef671c30934d2a2782bd8b69926248df5dd3e2478a5322e05ee8ad66b5"
+    }
+  },
+  "comparison": {
+    "designed": "amount at least doubles within source context; zero-baseline additions included",
+    "alloying": "reinforcement content and B/C/La fixed in the same context",
+    "aggregation": "paper-family mean of series changes"
+  },
+  "bootstrap": {
+    "draws": 4000,
+    "seed": 20261028,
+    "interval": "95% percentile of the family-bootstrap median"
+  },
+  "counts": {
+    "spans": 3347,
+    "compared_spans": 1007,
+    "paired": 603,
+    "compared_paired": 191,
+    "families": 265,
+    "designed_series": 189,
+    "reinforcement_cloud": 56,
+    "content_points": 240,
+    "zero_baseline_content_series": 123,
+    "zero_baseline_content_sources": 28
+  },
+  "numeric_gpu": {
+    "backend": "PyTorch CUDA",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+    "operations": 526,
+    "cpu_fallback": false
+  },
+  "figures_rendered": false,
+  "outputs": {
+    "addition_maps_compass.csv": {
+      "bytes": 1721,
+      "sha256": "973fa24e7b2447e6a2e5287177aa02efaf8f122ae4dd6e918e9b408d5ff357c9"
+    },
+    "addition_maps_content_bins.csv": {
+      "bytes": 763,
+      "sha256": "dccff7a09e67aa8279fe5239b061b1769821bfe609904cf6ff3ed11a4ee3d7a8"
+    },
+    "addition_maps_content_points.csv": {
+      "bytes": 24177,
+      "sha256": "fd0a70045ee77c0635cc52c4e026be08b9fbfe6fa935ca9a208e47d8677e79e5"
+    },
+    "addition_maps_contrast.csv": {
+      "bytes": 1513,
+      "sha256": "d4af94350fa0d117e449a905ed376198fc8f20546622d165d6ff0ddc8de6d7f0"
+    },
+    "addition_maps_design.csv": {
+      "bytes": 1629,
+      "sha256": "efbb88c00b7802ba8bb565fde7a2c5d758f0889ac08741fe1b25eeec0cd90917"
+    },
+    "addition_maps_designed_series.csv": {
+      "bytes": 31115,
+      "sha256": "621a50de908227c0f141286621d65876e006ee9a8fc7825b23e0af1fb1fd63cc"
+    },
+    "addition_maps_fingerprint.csv": {
+      "bytes": 6571,
+      "sha256": "3bd80da2f2de40ff595fa924d3e3c74fd6c948179a08e98e004888a0ef7540f8"
+    },
+    "addition_maps_fingerprint_all_series.csv": {
+      "bytes": 8108,
+      "sha256": "62d3759b86c2b247d8ad6a725e6fb8c243545a08a6bf472cc73002f2776ea2a4"
+    },
+    "addition_maps_group_medians.csv": {
+      "bytes": 637,
+      "sha256": "ce5dc5f0c8e559b0c9fe674c0b8843cbb35f7ca4d48532981bd286eec0ff30ef"
+    },
+    "addition_maps_reinforcement_bands.csv": {
+      "bytes": 276,
+      "sha256": "931a02d82573c9c08c9ba3d1d68cf7fef62bd1743e36adde17304fd5c612b2cb"
+    },
+    "addition_maps_reinforcement_cloud.csv": {
+      "bytes": 8291,
+      "sha256": "3d8b73c93e744baeca9d65e636954e05f620fc884693ec25d865d3b80831fb4a"
+    }
+  }
+}
